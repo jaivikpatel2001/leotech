@@ -1,0 +1,155 @@
+.aboutcoontainer {
+  padding: 6rem 0rem;
+  background-color: #fef8ff;
+}
+.atop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutbadge {
+  background-color: #ffe9bd;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 0.2rem 2rem;
+}
+
+.aherotitle {
+  font-size: 3rem;
+  font-weight: 600;
+  width: fit-content;
+  margin: 0.5rem 0rem;
+}
+
+.aherotitle > .about {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b62ef;
+}
+.aherotitle > .us {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d7ab21;
+}
+
+.aherodesc {
+  width: 38%;
+  line-height: 2rem;
+}
+
+/*  */
+.abottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ableft {
+  width: 35%;
+}
+.upperimage {
+  background-image: url("../../Assets/os1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 38vh;
+  width: 80%;
+}
+
+.lowerleftimg {
+  background-image: url("../../Assets/os2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 16vh;
+  width: 25%;
+}
+
+.lowerrightimg {
+  background-image: url("../../Assets/os3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 16vh;
+  width: 52%;
+  margin-left: 1.2rem;
+}
+
+.ourstorytitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.outdesc {
+  width: 93%;
+  line-height: 1.8rem;
+}
+
+.ctoname,
+.ceoname {
+  font-size: 1.2rem;
+}
+
+.planeicon {
+  background-image: url("../../Assets/plane.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 4vh;
+  width: 17%;
+}
+.saharaicon {
+  background-image: url("../../Assets/Star\ 10.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 4vh;
+  width: 17%;
+}
+@media (max-width: 768px) {
+  .aboutcoontainer {
+    /* padding: 1.5rem 0rem; */
+    padding: 12.5rem 0rem;
+  }
+  .abottom {
+    flex-direction: column;
+  }
+  .abright {
+    width: 90%;
+  }
+  .ourstorytitle {
+    text-align: center;
+  }
+  .outdesc {
+    text-align: center;
+    width: 100%;
+  }
+  .manavshah,
+  .darshaksolanki {
+    justify-content: center;
+    align-items: center;
+  }
+  .aherodesc {
+    line-height: 1.5rem;
+    text-align: center;
+    width: 90%;
+  }
+  .ableft {
+    width: 95%;
+  }
+  .upperimage {
+    width: 100%;
+    height: 30vh;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .lowerleftimg {
+    height: 13vh;
+    width: 30%;
+  }
+  .lowerrightimg {
+    width: 65%;
+    margin-left: 1rem;
+  }
+  .misright {
+    width: 90%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+}

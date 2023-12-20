@@ -1,0 +1,74 @@
+.contactformbg {
+  background-image: url("../../Assets/BG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  flex-direction: column;
+}
+.cfupper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cftitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.cfdesc {
+  font-weight: 500;
+  width: 52%;
+  text-align: center;
+}
+.formcontainer {
+  width: 50%;
+  padding: 2rem;
+}
+.cfcfformtitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.name,
+.email {
+  width: 47%;
+}
+.inputcss {
+  border: 1px solid rgb(157, 154, 154);
+  padding: 0.8rem 1rem;
+  outline: none;
+  border-radius: 0.2rem;
+}
+.msginputcss {
+  border: 1px solid rgb(157, 154, 154);
+  padding: 2rem 1rem;
+  outline: none;
+  border-radius: 0.2rem;
+}
+.cfbutton {
+  background-color: #0b62ef;
+  width: 100%;
+  padding: 1rem 0rem;
+  border-radius: 0.3rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .cfupper {
+    margin-top: 9rem;
+  }
+  .cfdesc {
+    width: 90%;
+  }
+  .formcontainer {
+    width: 90%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 1rem;
+  }
+}

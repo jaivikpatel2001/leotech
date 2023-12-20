@@ -1,0 +1,32 @@
+.testimonialcontainer {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.previous {
+  transform: scaleX(-1);
+}
+.user1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uimage {
+  width: 100%;
+  height: auto;
+}
+.tuserdesc {
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .testimonialcontainer {
+    width: 95%;
+  }
+  .tuserdesc {
+    width: 95%;
+  }
+}

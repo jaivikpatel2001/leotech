@@ -1,0 +1,166 @@
+/* .bgcolor {
+  background-color: #f9eefb;
+  height: 100vh;
+}
+.herocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.herobadge {
+  background-color: #ffe9bd;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 0.2rem 2rem;
+}
+.herotitle {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 62%;
+  margin: 1rem 0rem;
+}
+.herotitle > .leotech {
+  font-weight: 700;
+  color: #0b62ef;
+}
+.herodiscription {
+  width: 70%;
+}
+
+.herobtn {
+  background-color: #0b62e4;
+  width: fit-content;
+  padding: 0.2rem 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.heroright {
+  background-image: url("../../Assets/Heroimg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 60vh;
+  mix-blend-mode: darken;
+} */
+/* General Styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.bgcolor {
+  background-color: #f9eefb;
+  height: 100vh;
+}
+.logo {
+  width: 70%;
+}
+.nav {
+  margin-bottom: 0rem !important;
+}
+.navmenu {
+  color: #0b62e4;
+  font-weight: 500;
+}
+.navherobtn {
+  background-color: #0b62e4;
+  width: fit-content;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 500;
+}
+.navmenu:hover {
+  color: #0b62e4;
+  font-weight: 700;
+  border-bottom: 3px solid blue;
+}
+.herocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* Hero Section Styles */
+.herobadge {
+  background-color: #ffe9bd;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 0.2rem 2rem;
+}
+
+.herotitle {
+  font-size: 3rem;
+  font-weight: 600;
+  width: 62%; /* Adjusted to full width for better responsiveness */
+  margin: 1rem 0rem;
+}
+
+.herotitle > .leotech {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b62ef;
+}
+
+.herodescription {
+  width: 70%; /* Adjusted to full width for better responsiveness */
+  line-height: 2rem;
+}
+
+.herobtn {
+  background-color: #0b62e4;
+  width: fit-content;
+  padding: 0.4rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+/* Right Section Styles */
+
+.heroright {
+  background-image: url("../../Assets/Heroimg.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjusted for better responsiveness */
+  width: 100%;
+  height: 60vh;
+  mix-blend-mode: darken;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .bgcolor {
+    height: 100%;
+    margin-top: 10rem;
+  }
+  .herocontainer {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .herotitle {
+    font-size: 2rem;
+  }
+
+  .herobadge,
+  .herotitle,
+  .herodescription,
+  .herobtn {
+    width: 100%; /* Adjusted to full width for better responsiveness */
+    text-align: center;
+  }
+
+  .heroright {
+    height: 40vh;
+    margin: auto;
+  }
+  .nav {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

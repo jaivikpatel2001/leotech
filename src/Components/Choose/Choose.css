@@ -1,0 +1,118 @@
+.choosecontainer {
+  background-color: #fef8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.cherotitle > .why {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b62ef;
+}
+
+.cherotitle > .chooseus {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d7ab21;
+}
+.cherodesc {
+  width: 33%;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logoleft {
+  background-image: url(../../Assets/logobig.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30vh;
+  width: 12%;
+}
+.correct {
+  background-image: url("../../Assets/right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10%;
+  height: 2vh;
+}
+.leotech {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.listitemparent {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.do {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.lh {
+  line-height: 2.5rem;
+  padding: 1.5rem 2.5rem;
+  width: 110%;
+}
+
+.wrong {
+  background-image: url("../../Assets/wrong.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 10%;
+  height: 2vh;
+}
+.othertech {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.listitemparent {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.dont {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.lh {
+  line-height: 2.5rem;
+  padding: 1.5rem 2.5rem;
+  width: 110%;
+}
+.logoright {
+  background-image: url(../../Assets/logobig.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30vh;
+  width: 12%;
+  transform: scaleX(-1);
+}
+@media only screen and (max-width: 768px) {
+  .choosecontainer {
+    /* padding: 1rem 0; */
+    padding: 12rem 0;
+    align-items: center;
+  }
+  .bottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cherodesc {
+    width: 80%;
+    text-align: center;
+  }
+  .logoleft,
+  .logoright {
+    height: 15vh;
+    width: 30%;
+  }
+  .lh {
+    width: 100%;
+  }
+}

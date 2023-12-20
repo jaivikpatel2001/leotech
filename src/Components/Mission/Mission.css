@@ -1,0 +1,189 @@
+.missioncontainer {
+  background-color: #fef8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listcorrect {
+  display: flex;
+  align-items: center;
+}
+.cimage {
+  background-image: url("../../Assets/greencorrect.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2vh;
+  width: 4%;
+}
+.imageone {
+  background-image: url("../../Assets/Image\ 1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40vh;
+  width: 50%;
+}
+.imagetwo {
+  background-image: url("../../Assets/Image\ 2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40vh;
+  width: 45%;
+}
+.misleft {
+  width: 39%;
+}
+.misright {
+  width: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.missiontitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.missiondesc {
+  width: 100%;
+  line-height: 1.8rem;
+}
+.listcontianer {
+  line-height: 2.5rem;
+}
+.coreleft {
+  background-image: url("../../Assets/gradientimg2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 48.5vh;
+  width: 26%;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.coretitle {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+.coredesc {
+  font-size: 1rem;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+.coreright {
+  width: 52%;
+}
+.corerightleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+.inovation {
+  width: 85%;
+  padding: 1rem;
+}
+.inovationicon {
+  background-image: url("../../Assets/inovationicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 15%;
+}
+.bugicon {
+  background-image: url("../../Assets/bugicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 15%;
+}
+.databaseicon {
+  background-image: url("../../Assets/database.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 15%;
+}
+.collabicon {
+  background-image: url("../../Assets/collabicon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 6vh;
+  width: 15%;
+}
+.inovationtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.bottomsection {
+  background-color: #fef8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .missioncontainer {
+    flex-direction: column;
+  }
+  .misleft {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .misright {
+    margin-top: 1rem;
+    width: 90%;
+  }
+  .missiontitle {
+    text-align: center;
+  }
+  .missiondesc {
+    text-align: center;
+    width: 100%;
+  }
+  .imageone {
+    height: 24vh;
+  }
+  .imagetwo {
+    height: 24vh;
+    width: 48%;
+  }
+  .cimage {
+    width: 5%;
+    height: 1vh;
+  }
+  .bottomsection {
+    flex-direction: column;
+  }
+  .coreleft {
+    height: 35vh;
+    width: 80%;
+  }
+  .coreright {
+    width: 100%;
+    flex-direction: column;
+  }
+  .coretitle {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+  }
+  .coredesc {
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  .corerightleft {
+    align-items: center;
+  }
+  .corerightright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

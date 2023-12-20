@@ -1,0 +1,108 @@
+/* .happycontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.htop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hsherotitle > .ourhappy {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b62ef;
+}
+
+.hsherotitle > .family {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d7ab21;
+}
+
+.hbtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  width: 38%;
+  text-align: center;
+}
+.hbottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.statastics {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.award,
+.experience,
+.client,
+.project {
+  align-items: center !important;
+}
+.trophy {
+  background-image: url("../../Assets/Trophy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 60%;
+}
+.siconexp {
+  background-image: url("../../Assets/Users.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 60%;
+}
+.siconhappy {
+  background-image: url("../../Assets/Smiley.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 90%;
+}
+.siconproject {
+  background-image: url("../../Assets/Briefcase.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 60%;
+}
+.sdescstats {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c83d9;
+}
+@media screen and (max-width: 768px) {
+  .industriescontainer {
+    padding: 1rem 0;
+  }
+  .happycontainer {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    /* padding-top: 0rem; */
+    padding-top: 12rem;
+  }
+  .hbottom {
+    flex-direction: column;
+  }
+  .hbtitle {
+    width: 100%;
+  }
+  /* .statastics {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 1rem;
+  } */
+}

@@ -1,0 +1,47 @@
+/* .footercontainer {
+  background-color: #36393e;
+  height: 40vh;
+}
+.footerbox {
+  width: 75%;
+  color: white;
+  margin: auto;
+} */
+/* .flogoleft {
+  background-image: url("../../Assets/flogos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7vh;
+  width: 100%;
+}
+.flogoright {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.fcallleft {
+  background-image: url("../../Assets/fcall.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7vh;
+  width: 100%;
+}
+.fmailleft {
+  background-image: url("../../Assets/fcall.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7vh;
+  width: 100%;
+}
+.flocation {
+  background-image: url("../../Assets/fcall.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 7vh;
+  width: 100%;
+} */
+.flogoright {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white !important;
+}
