@@ -5,7 +5,7 @@ import TestimonialSlider from "../Testimonial/Testimonial";
 const Happy = () => {
   return (
     <>
-      <div className="happycontainer py-24" id="testimonial">
+      <div className="happycontainer py-12" id="testimonial">
         <div className="htop ">
           <div className="herobadge">Testimonial</div>
           <div className="hsherotitle ">
@@ -21,7 +21,7 @@ const Happy = () => {
 
           <TestimonialSlider />
           <div className="statastics">
-            <div className="award  flex ">
+            <div className="award flex ">
               <div className="trophy w-fit"></div>
               <div className="sdescription">
                 <div className="sdescstats text-center ">17+</div>

@@ -4,7 +4,7 @@ import "./Choose.css";
 const Choose = () => {
   return (
     <>
-      <div className="choosecontainer py-28" id="cta">
+      <div className="choosecontainer py-12" id="cta">
         <div className="top">
           <div className="cherotitle w-fit m-auto">
             <span className="why">Why</span>

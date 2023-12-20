@@ -45,3 +45,8 @@
   font-weight: 700;
   color: white !important;
 }
+@media screen and (max-width: 768px) {
+  .footermargin {
+    margin-top: 4rem;
+  }
+}

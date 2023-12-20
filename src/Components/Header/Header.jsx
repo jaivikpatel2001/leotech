@@ -1,12 +1,13 @@
 import React from "react";
 import "./Header.css";
-import logo from "../../Assets/logo.png";
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   return (
     <>
+      <Navbar />
       <header className="text-gray-600 body-fonts ">
-        <div class="container bg-white w-12/12 rounded mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center px-auto nav">
+        {/* <div class="container bg-white w-12/12 rounded mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center px-auto nav">
           <a
             href="#home"
             class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
@@ -56,7 +57,7 @@ const Header = () => {
               Contact Us
             </button>
           </a>
-        </div>
+        </div> */}
       </header>
       <div className="bgcolor" id="home">
         <div className="herocontainer w-10/12 m-auto">

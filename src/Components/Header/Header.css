@@ -55,9 +55,7 @@ header {
   background-color: #f9eefb;
   height: 100vh;
 }
-.logo {
-  width: 70%;
-}
+
 .nav {
   margin-bottom: 0rem !important;
 }
@@ -136,14 +134,15 @@ header {
 @media screen and (max-width: 768px) {
   .bgcolor {
     height: 100%;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
   }
   .herocontainer {
     flex-direction: column-reverse;
     height: auto;
   }
 
-  .herotitle {
+  .herotitle,
+  .herotitle > .leotech {
     font-size: 2rem;
   }
 

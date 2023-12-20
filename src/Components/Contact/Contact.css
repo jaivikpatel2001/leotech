@@ -50,12 +50,14 @@
     height: auto;
   }
   .heroformtext {
-    width: 100%;
+    width: 90%;
   }
   .left {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
     text-align: center;
+    padding-left: 0rem;
+    align-items: center;
   }
   .formdata {
     display: flex;

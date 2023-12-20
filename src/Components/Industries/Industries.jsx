@@ -4,7 +4,7 @@ import "../Industries/Industries.css";
 const Industries = () => {
   return (
     <>
-      <div className="industriescontainer py-24" id="service">
+      <div className="industriescontainer py-12" id="service">
         <div className="itop ">
           <div className="herobadge">INDUSTRIES</div>
           <div className="sherotitle ">

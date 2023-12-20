@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div className="contactcontainer">
-        <div className=" w-full blueheight">
+        <div className="blueheight">
           <div className="left">
             <div className="heroformtext ">
               Have a project in mind! Let’s work together.

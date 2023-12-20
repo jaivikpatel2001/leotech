@@ -1,5 +1,5 @@
 .aboutcoontainer {
-  padding: 6rem 0rem;
+  padding: 3rem 0rem;
   background-color: #fef8ff;
 }
 .atop {
@@ -104,7 +104,7 @@
 @media (max-width: 768px) {
   .aboutcoontainer {
     /* padding: 1.5rem 0rem; */
-    padding: 12.5rem 0rem;
+    padding: 2rem 0rem;
   }
   .abottom {
     flex-direction: column;
@@ -116,7 +116,7 @@
     text-align: center;
   }
   .outdesc {
-    text-align: center;
+    text-align: justify;
     width: 100%;
   }
   .manavshah,
@@ -126,8 +126,8 @@
   }
   .aherodesc {
     line-height: 1.5rem;
-    text-align: center;
-    width: 90%;
+    text-align: justify;
+    width: 91%;
   }
   .ableft {
     width: 95%;

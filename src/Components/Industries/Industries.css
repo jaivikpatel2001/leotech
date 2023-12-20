@@ -219,13 +219,14 @@
 @media screen and (max-width: 768px) {
   .industriescontainer {
     /* padding: 1rem 0; */
-    padding: 12rem 0;
+    padding: 1rem 0;
   }
   .sherotitle {
     text-align: center;
   }
   .sdescriptioin {
-    width: 85%;
+    width: 90%;
+    text-align: justify;
   }
 
   .itop {

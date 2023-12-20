@@ -20,7 +20,7 @@ const Testimonial = () => {
             {" "}
             Mick G., Head of Sales and Marketing
           </div>
-          <div className="tuserdesc mt-8 text-center">
+          <div className="tuserdesc mt-8 text-justify">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the when an unknown printer took a galley of type and
