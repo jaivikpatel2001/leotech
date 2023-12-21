@@ -66,6 +66,7 @@
   }
   .formdata {
     display: flex;
+    flex-direction: column;
   }
   .right {
     width: 100%;
@@ -81,7 +82,7 @@
     margin-top: 1rem;
     padding: 0.8rem 1.5rem;
     border-radius: 0.8rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
     font-weight: 500;
   }
 }
