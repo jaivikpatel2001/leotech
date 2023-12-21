@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-4  navcontpad">
+    <nav className="bg-white p-4  navcontpad navbartotal">
       <div className="container mx-auto flex items-center justify-around">
         <a href="#home">
           <img src={Logo} className="logo" alt="" />
@@ -54,42 +54,42 @@ const Navbar = () => {
           <div className="lg:flex items-center navmenumobile">
             <a
               href="#home"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               About
             </a>
             <a
               href="#service"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               Service
             </a>
             <a
               href="#testimonial"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               Testimonial
             </a>
             <a
               href="#cta"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               CTA
             </a>
             <a
               href="#faq"
-              className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"
+              className="text-blue-600 font-medium mx-4 hover:underline hover:font-bold block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               FAQ
@@ -97,7 +97,7 @@ const Navbar = () => {
           </div>
           <a href="#contact">
             <button className="bg-blue-500 py-2 px-4 rounded-lg text-white font-medium mx-2 block lg:inline mobilemenuset">
-              Contact
+              Contact Us
             </button>
           </a>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../Assets/logoforchoose.png";
 import "./Choose.css";
 
 const Choose = () => {
@@ -18,8 +19,10 @@ const Choose = () => {
         <div className="bottom justify-between m-auto">
           <div className="logoleft"></div>
           <div className="leoparent">
-            <div className="leotech w-fit text-center m-auto"> Leotech</div>
-            <div className="bg-blue-500 lh">
+            <div className="leotech w-fit text-center m-auto flex align-items-center">
+              <img src={logo} alt="" /> Leotech
+            </div>
+            <div className="bg-blue-500 lh shadow-2xl">
               <div className="do">FEATURES INCLUDED :</div>
               <div className="listitemparent">
                 <div className="correct"></div>
@@ -62,9 +65,9 @@ const Choose = () => {
           <div className="vs text-white bg-yellow-600 rounded-full ">
             <div className="vstext">VS</div>
           </div>
-          <div className="otherparent">
+          <div className="otherparent ">
             <div className="othertech w-fit text-center m-auto">Other Apps</div>
-            <div className="bg-white lh shadow">
+            <div className="bg-white lh shadow-2xl">
               <div className="dont">FEATURES NOT INCLUDED :</div>
               <div className="listitemparent">
                 <div className="wrong"></div>

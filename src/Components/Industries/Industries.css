@@ -117,7 +117,15 @@
   font-weight: 700;
   color: #d7ab21;
 }
-
+.herobadgei {
+  background-color: #ffe9bd;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 0.2rem 2rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #8a6901;
+}
 .sdescriptioin {
   width: 39%;
   margin-bottom: 2rem;

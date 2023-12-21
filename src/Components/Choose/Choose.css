@@ -21,6 +21,7 @@
   text-align: center;
   margin-top: 1.2rem;
   margin-bottom: 3rem;
+  color: #545771;
 }
 .bottom {
   display: flex;
@@ -45,9 +46,9 @@
 }
 .leotech {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
-  margin-left: 8rem;
+  margin-left: 6rem;
 }
 
 .listitemparent {
@@ -63,7 +64,7 @@
 .lh {
   line-height: 2.5rem;
   padding: 1.5rem 2.5rem;
-  width: 110%;
+  width: 115%;
 }
 
 .wrong {
@@ -75,8 +76,8 @@
 }
 .othertech {
   font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
   margin-left: 8rem;
 }
 .listitemparent {
@@ -97,6 +98,7 @@
 
 .vs {
   width: 3.5rem;
+  transform: translateX(0.6rem);
   height: 3rem;
   font-size: 1rem;
   font-weight: 600;

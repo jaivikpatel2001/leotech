@@ -6,7 +6,7 @@ const Industries = () => {
     <>
       <div className="industriescontainer py-12" id="service">
         <div className="itop ">
-          <div className="herobadge">INDUSTRIES</div>
+          <div className="herobadgei">INDUSTRIES</div>
           <div className="sherotitle ">
             <span className="ind">Industry</span>{" "}
             <span className="serve">We Serve</span>{" "}
@@ -19,22 +19,22 @@ const Industries = () => {
         </div>
         <div className="ibottom">
           <div className="bleft">
-            <div className="lone text-white w-fit my-4 py-3 px-4 pr-16 border-2 rounded-full">
+            <div className="lone text-white w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
               Web Development & Design :{" "}
             </div>
-            <div className="ltwo w-fit my-4 py-3 px-4 pr-16 border-2 rounded-full">
+            <div className="ltwo w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
               Mobile App Development :
             </div>
-            <div className="lthree w-fit my-4 py-3 px-4 pr-16 border-2 rounded-full">
+            <div className="lthree w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
               Cloud Computing :
             </div>
-            <div className="lfour w-fit my-4 py-3 px-4 pr-16 border-2 rounded-full ">
+            <div className="lfour w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full ">
               Artificial Intelligence (AI) <br /> Machine Learning (ML) :
             </div>
-            <div className="lfive w-fit my-4 py-3 px-4 pr-16 border-2 rounded-full ">
+            <div className="lfive w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full ">
               Data Science & Analytics :
             </div>
-            <div className="lsix w-fit my-4 border-2 py-3 px-4 pr-16 rounded-full ">
+            <div className="lsix w-fit my-4 border-2 py-3 px-4 pr-24 rounded-full ">
               E-Commerce Solutions :{" "}
             </div>
           </div>
