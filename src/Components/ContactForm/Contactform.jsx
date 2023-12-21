@@ -44,7 +44,7 @@ const Contact = () => {
                 className="inputcss"
                 type="text"
                 name="company"
-                placeholder="Email address"
+                placeholder="Brand/Company/Product Name"
                 autoComplete="off"
               />
             </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 className="msginputcss"
                 type="text"
                 name="message"
-                placeholder="Email address"
+                placeholder="Tell us about your project"
                 autoComplete="off"
               />
             </div>
