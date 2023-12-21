@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
+import heroimg from "../../Assets/Heroimg.png";
 
 const Header = () => {
   return (
@@ -77,7 +78,9 @@ const Header = () => {
               <button> More About Us</button>
             </div>
           </div>
-          <div className="heroright"></div>
+          <div className="heroright">
+            <img className="heroimggirl" src={heroimg} alt="" />
+          </div>
         </div>
       </div>
     </>

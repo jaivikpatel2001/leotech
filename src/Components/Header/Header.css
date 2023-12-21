@@ -130,15 +130,19 @@
 
 /* Right Section Styles */
 
-.heroright {
+/* .heroright {
   background-image: url("../../Assets/Heroimg.png");
   background-repeat: no-repeat;
-  background-size: cover; /* Adjusted for better responsiveness */
+  background-size: cover;
   width: 112%;
   height: 80vh;
   mix-blend-mode: darken;
+} */
+.heroimggirl {
+  mix-blend-mode: darken;
+  height: 80vh;
+  width: 200vb;
 }
-
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .bgcolor {
@@ -167,14 +171,16 @@
     text-align: center;
   }
 
-  .heroright {
-    /* height: 40vh;
-    margin: auto; */
-    height: 49vh;
+  /* .heroright {
+    height: 42vh;
     margin-right: 1rem;
     width: 100%;
+  } */
+  .heroimggirl {
+    mix-blend-mode: darken;
+    height: 45vh;
+    width: 50vb;
   }
-
   .nav {
     width: 100%;
     margin-bottom: 1rem;
