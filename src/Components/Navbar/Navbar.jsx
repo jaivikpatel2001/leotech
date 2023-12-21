@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white p-4  navcontpad">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-around">
         <a href="#home">
           <img src={Logo} className="logo" alt="" />
         </a>
@@ -45,13 +45,13 @@ const Navbar = () => {
 
         {/* Navbar Links */}
         <div
-          className={`lg:flex lg:items-center lg:justify-between mobilemenu ${
+          className={`lg:flex lg:items-center lg:justify-between w-2/4 mobilemenu ${
             isOpen
               ? "flex flex-col items-center absolute w-full bg-white mt-36 set"
               : "hidden"
           }`}
         >
-          <div className="lg:flex items-center">
+          <div className="lg:flex items-center navmenumobile">
             <a
               href="#home"
               className="text-blue-600 font-medium mx-2 hover:underline hover:font-bold block lg:inline mobilemenuset"

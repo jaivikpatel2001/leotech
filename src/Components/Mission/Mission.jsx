@@ -39,7 +39,7 @@ const Mission = () => {
           <div className="imagetwo"></div>
         </div>
       </div>
-      <div className="bottomsection py-4 ">
+      <div className="bottomsection py-12 ">
         <div className="coreleft">
           <div className="coretitle">Core Values</div>
           <div className="coredesc">
@@ -49,7 +49,7 @@ const Mission = () => {
         </div>
         <div className="coreright flex gap-3">
           <div className="corerightleft gap-3">
-            <div className="inovation bg-white shadow-lg">
+            <div className="inovation bg-white shadow-sm">
               <div className="inovationicon"></div>
               <div className="inovationtitle ">Innovation</div>
               <div className="inovationdesc">
@@ -57,7 +57,7 @@ const Mission = () => {
                 solutions.
               </div>
             </div>
-            <div className="inovation bg-white shadow-lg">
+            <div className="inovation bg-white shadow-sm">
               <div className="bugicon"></div>
               <div className="inovationtitle ">Client-Centric</div>
               <div className="inovationdesc">
@@ -67,8 +67,8 @@ const Mission = () => {
             </div>
             {/* <div className="client"></div> */}
           </div>
-          <div className="corerightright flex flex-col gap-3 ">
-            <div className="inovation bg-white shadow-lg">
+          <div className="corerightright flex flex-col">
+            <div className="inovation bg-white shadow-sm">
               <div className="databaseicon"></div>
               <div className="inovationtitle ">Integrity</div>
               <div className="inovationdesc">
@@ -76,7 +76,7 @@ const Mission = () => {
                 ethical practices
               </div>
             </div>
-            <div className="inovation bg-white shadow-lg ">
+            <div className="inovation bg-white shadow-sm">
               <div className="collabicon"></div>
               <div className="inovationtitle ">Collaboration</div>
               <div className="inovationdesc">

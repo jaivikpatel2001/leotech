@@ -40,6 +40,9 @@
   height: 7vh;
   width: 100%;
 } */
+.footercontainer {
+  margin-top: 6rem;
+}
 .flogoright {
   font-size: 1.2rem;
   font-weight: 700;
@@ -47,6 +50,6 @@
 }
 @media screen and (max-width: 768px) {
   .footermargin {
-    margin-top: 4rem;
+    margin-top: 12rem;
   }
 }

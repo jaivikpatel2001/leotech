@@ -45,15 +45,16 @@
   mix-blend-mode: darken;
 } */
 /* General Styles */
-header {
+/* header {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-}
+} */
 .bgcolor {
-  background-color: #f9eefb;
-  height: 100vh;
+  /* background-color: #f9eefb; */
+  background-color: #fce7fd;
+  height: 85vh;
 }
 
 .nav {
@@ -89,24 +90,32 @@ header {
   border-radius: 1rem;
   width: fit-content;
   padding: 0.2rem 2rem;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .herotitle {
   font-size: 3rem;
-  font-weight: 600;
-  width: 62%; /* Adjusted to full width for better responsiveness */
-  margin: 1rem 0rem;
+  font-weight: 700;
+  width: 80%;
+  margin: 2rem 0rem;
+  letter-spacing: 0.2rem;
+  line-height: 5rem;
 }
 
 .herotitle > .leotech {
   font-size: 3rem;
   font-weight: 700;
   color: #0b62ef;
+  border: 5px solid #0b62e4;
+  padding: 0rem 1rem;
+  margin-left: 0;
 }
 
 .herodescription {
-  width: 70%; /* Adjusted to full width for better responsiveness */
+  width: 74%; /* Adjusted to full width for better responsiveness */
   line-height: 2rem;
+  color: gray;
 }
 
 .herobtn {
@@ -125,8 +134,8 @@ header {
   background-image: url("../../Assets/Heroimg.png");
   background-repeat: no-repeat;
   background-size: cover; /* Adjusted for better responsiveness */
-  width: 100%;
-  height: 60vh;
+  width: 112%;
+  height: 80vh;
   mix-blend-mode: darken;
 }
 
@@ -140,14 +149,18 @@ header {
     flex-direction: column-reverse;
     height: auto;
   }
-
+  .herotitle {
+    line-height: 3.5rem;
+    text-align: center;
+    width: 100%;
+  }
   .herotitle,
   .herotitle > .leotech {
     font-size: 2rem;
+    margin-left: 0;
   }
 
   .herobadge,
-  .herotitle,
   .herodescription,
   .herobtn {
     width: 100%; /* Adjusted to full width for better responsiveness */
@@ -155,9 +168,13 @@ header {
   }
 
   .heroright {
-    height: 40vh;
-    margin: auto;
+    /* height: 40vh;
+    margin: auto; */
+    height: 49vh;
+    margin-right: 1rem;
+    width: 100%;
   }
+
   .nav {
     width: 100%;
     margin-bottom: 1rem;

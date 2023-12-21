@@ -1,8 +1,10 @@
 .missioncontainer {
   background-color: #fef8ff;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
+  margin: auto;
 }
 .listcorrect {
   display: flex;
@@ -20,14 +22,15 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
-  width: 50%;
+  width: 100%;
+  margin-right: 1rem;
 }
 .imagetwo {
   background-image: url("../../Assets/Image\ 2.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
-  width: 45%;
+  width: 100%;
 }
 .misleft {
   width: 39%;
@@ -39,12 +42,12 @@
   justify-content: center;
 }
 .missiontitle {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 .missiondesc {
-  width: 100%;
+  width: 127%;
   line-height: 1.8rem;
 }
 .listcontianer {
@@ -54,24 +57,26 @@
   background-image: url("../../Assets/gradientimg2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 48.5vh;
-  width: 26%;
+  height: 60vh;
+  width: 32%;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  padding-left: 2rem;
 }
 .coretitle {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
-  font-weight: 600;
+  font-weight: 700;
 }
 .coredesc {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: white;
-  width: 50%;
-  text-align: center;
+  width: 65%;
+
+  text-align: left;
 }
 .coreright {
   width: 52%;
@@ -81,11 +86,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  gap: 1.5rem;
+}
+.corerightright {
+  margin-left: 1rem;
+  gap: 1.5rem;
+  transform: translate(0rem, 2rem);
 }
 .inovation {
   width: 85%;
   padding: 1rem;
+  border-radius: 0.7rem;
 }
+.inovationdesc {
+  width: 100%;
+}
+
 .inovationicon {
   background-image: url("../../Assets/inovationicon.png");
   background-size: contain;
@@ -130,7 +146,7 @@
     flex-direction: column;
   }
   .misleft {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
@@ -150,7 +166,7 @@
   }
   .imagetwo {
     height: 24vh;
-    width: 48%;
+    width: 100%;
   }
   .cimage {
     width: 5%;
@@ -176,7 +192,7 @@
     font-size: 1rem;
     color: white;
     width: 100%;
-    text-align: center;
+    text-align: start;
   }
   .corerightleft {
     align-items: center;

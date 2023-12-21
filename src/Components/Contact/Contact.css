@@ -1,53 +1,57 @@
 .blueheight {
   display: flex;
   justify-content: space-around;
-  background-color: #0a4fb7;
+  background-color: #094fbb;
 }
 
 .blueheight {
-  height: 35vh;
+  height: 47vh;
 }
 .left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 11rem;
+  margin-left: 4rem;
 }
 
 .right {
   background-image: url("../../Assets/vectorimg2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 43vh;
-  width: 36.8%;
-  margin-right: 5rem;
+  height: 50vh;
+  width: 77%;
 }
 .heroformtext {
-  width: 60%;
+  width: 90%;
   color: white;
-  font-size: 2.5rem;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  line-height: 3.5rem;
 }
 .inputfield {
   margin-top: 1rem;
-  border-radius: 0.3rem;
-  padding: 0.6rem 2rem;
+  border-radius: 0.8rem;
+  padding: 0.8rem 2rem;
+  padding-right: 5rem;
   outline: none;
 }
 .submit {
   margin-top: 1rem;
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 2.5rem;
   color: #0a4fb7;
   background-color: white;
-  border-radius: 0.2rem;
+  border-radius: 0.8rem;
   margin-left: 1rem;
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
   .blueheight {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     height: auto;
+    padding-bottom: 2rem;
   }
   .heroformtext {
     width: 90%;
@@ -58,13 +62,26 @@
     text-align: center;
     padding-left: 0rem;
     align-items: center;
+    margin-left: 0;
   }
   .formdata {
     display: flex;
   }
   .right {
     width: 100%;
-    margin-right: 0;
-    height: 23vh;
+    height: 25vh;
+  }
+  .inputfield {
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.8rem 2rem;
+    outline: none;
+  }
+  .submit {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 500;
   }
 }

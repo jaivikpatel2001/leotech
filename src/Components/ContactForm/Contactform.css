@@ -17,21 +17,25 @@
   align-items: center;
 }
 .cftitle {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
+  color: #061d3c;
+  margin-top: 3rem;
 }
 .cfdesc {
   font-weight: 500;
-  width: 52%;
+  font-size: 1.3rem;
+  width: 55%;
   text-align: center;
+  margin-bottom: 2rem;
 }
 .formcontainer {
-  width: 50%;
+  width: 45%;
   padding: 2rem;
 }
 .cfcfformtitle {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .name,
@@ -56,11 +60,17 @@
   padding: 1rem 0rem;
   border-radius: 0.3rem;
   margin-top: 3rem;
+  color: white;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
   .cfupper {
     margin-top: 9rem;
+  }
+  .cftitle {
+    text-align: center;
+    margin-top: 6rem;
   }
   .cfdesc {
     width: 90%;

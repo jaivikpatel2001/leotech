@@ -6,7 +6,7 @@ const About = () => {
     <>
       <div className="aboutcoontainer" id="about">
         <div className="atop">
-          <div className="aboutbadge">About</div>
+          <div className="aboutbadge">ABOUT</div>
           <div className="aherotitle">
             <span className="about">About</span> <span className="us">Us</span>
           </div>

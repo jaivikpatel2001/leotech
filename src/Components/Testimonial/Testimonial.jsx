@@ -29,7 +29,7 @@ const Testimonial = () => {
         </div>
         <div className="tright">
           <button>
-            <img src={previous} alt="" />
+            <img className="next" src={previous} alt="" />
           </button>
         </div>
       </div>

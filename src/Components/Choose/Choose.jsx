@@ -4,7 +4,7 @@ import "./Choose.css";
 const Choose = () => {
   return (
     <>
-      <div className="choosecontainer py-12" id="cta">
+      <div className="choosecontainer " id="cta">
         <div className="top">
           <div className="cherotitle w-fit m-auto">
             <span className="why">Why</span>
@@ -23,31 +23,44 @@ const Choose = () => {
               <div className="do">FEATURES INCLUDED :</div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">No hidden fees. No surprises</div>
+                <div className="text-white listcontent">
+                  No hidden fees. No surprises
+                </div>
               </div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">Manage taxes, automatically</div>
+                <div className="text-white listcontent">
+                  Manage taxes, automatically
+                </div>
               </div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">Supports 190+ countries</div>
+                <div className=" text-white listcontent">
+                  Supports 190+ countries
+                </div>
               </div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">Provides 24/7 live support</div>
+                <div className="text-white listcontent">
+                  Provides 24/7 live support
+                </div>
               </div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">
+                <div className=" text-white listcontent">
                   Works with the real exchange rate
                 </div>
               </div>
               <div className="listitemparent">
                 <div className="correct"></div>
-                <div className="listcontent">Integrates seamlessly</div>
+                <div className=" text-white listcontent">
+                  Integrates seamlessly
+                </div>
               </div>
             </div>
+          </div>
+          <div className="vs text-white bg-yellow-600 rounded-full ">
+            <div className="vstext">VS</div>
           </div>
           <div className="otherparent">
             <div className="othertech w-fit text-center m-auto">Other Apps</div>

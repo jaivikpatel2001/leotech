@@ -19,7 +19,17 @@
   height: auto;
 }
 .tuserdesc {
-  width: 45%;
+  width: 60%;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+  color: #6a6b82;
+  margin-bottom: 4rem;
+}
+.previous:hover,
+.next:hover {
+  background-color: orange;
+  border-radius: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -28,5 +38,6 @@
   }
   .tuserdesc {
     width: 95%;
+    margin-bottom: 1rem;
   }
 }

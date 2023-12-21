@@ -7,7 +7,7 @@ const Happy = () => {
     <>
       <div className="happycontainer py-12" id="testimonial">
         <div className="htop ">
-          <div className="herobadge">Testimonial</div>
+          <div className="herobadge">TESTIMONIAL</div>
           <div className="hsherotitle ">
             <span className="ourhappy">Our Happy</span>
             <span className="family"> Family</span>
@@ -15,11 +15,14 @@ const Happy = () => {
         </div>
         <hr />
         <div className="hbottom ">
-          <div className="hbtitle ">
+          <TestimonialSlider />
+          <div className="w-3/4">
+            <hr />
+          </div>
+          <div className="hbtitle mt-4">
             Businesses all over the world trust Buffer to build their brand
           </div>
 
-          <TestimonialSlider />
           <div className="statastics">
             <div className="award flex ">
               <div className="trophy w-fit"></div>

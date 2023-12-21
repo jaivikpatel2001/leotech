@@ -5,8 +5,8 @@ import Navbar from "../Navbar/Navbar";
 const Header = () => {
   return (
     <>
-      <Navbar />
       <header className="text-gray-600 body-fonts ">
+        <Navbar />
         {/* <div class="container bg-white w-12/12 rounded mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center px-auto nav">
           <a
             href="#home"

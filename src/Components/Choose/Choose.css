@@ -3,33 +3,38 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 2rem 0rem;
 }
 .cherotitle > .why {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #0b62ef;
 }
 
 .cherotitle > .chooseus {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #d7ab21;
 }
 .cherodesc {
   width: 33%;
   text-align: center;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
 }
 .bottom {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 85% !important;
+  padding-bottom: 4rem;
 }
 .logoleft {
   background-image: url(../../Assets/logobig.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 30vh;
-  width: 12%;
+  height: 35vh;
+  width: 25%;
 }
 .correct {
   background-image: url("../../Assets/right.png");
@@ -41,7 +46,10 @@
 .leotech {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
 }
+
 .listitemparent {
   display: flex;
   align-items: center;
@@ -68,6 +76,8 @@
 .othertech {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
 }
 .listitemparent {
   display: flex;
@@ -82,14 +92,26 @@
 .lh {
   line-height: 2.5rem;
   padding: 1.5rem 2.5rem;
-  width: 110%;
+  width: 120%;
+}
+
+.vs {
+  width: 3.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 3.1rem;
 }
 .logoright {
   background-image: url(../../Assets/logobig.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 30vh;
-  width: 12%;
+  height: 35vh;
+  width: 28%;
   transform: scaleX(-1);
 }
 @media only screen and (max-width: 768px) {
@@ -102,10 +124,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
   .cherodesc {
     width: 80%;
     text-align: center;
+    margin-bottom: 1rem;
   }
   .logoleft,
   .logoright {
@@ -114,5 +138,11 @@
   }
   .lh {
     width: 100%;
+  }
+  .vs {
+    margin: 2rem 0rem;
+  }
+  .othertech {
+    margin-left: 6.5rem;
   }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import flogo from "../../Assets/flogos.png";
+// import flogo from "../../Assets/flogos.png";
+import logo from "../../Assets/logo.png";
 
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
           <div className="fbottom">bottom</div>
         </footer>
       </div> */}
-      <footer className="bg-white dark:bg-gray-800">
+      <footer className="bg-white dark:bg-gray-800 footercontainer">
         <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24 footermargin">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
@@ -90,8 +91,8 @@ const Footer = () => {
                     fill="currentColor"
                   />
                 </svg> */}
-                <img src={flogo} alt="" />
-                <div className="flogoright ml-8">Logoss</div>
+                <img src={logo} alt="" />
+                {/* <div className="flogoright ml-8">logos</div> */}
               </div>
 
               {/* <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 dark:text-gray-400 sm:max-w-xs sm:text-left">
@@ -177,7 +178,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                      href="/"
+                      href="#testimonial"
                     >
                       Testimonial
                     </a>
@@ -186,7 +187,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                      href="/"
+                      href="#service"
                     >
                       Services
                     </a>
@@ -195,7 +196,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                      href="/"
+                      href="#contact"
                     >
                       Contact
                     </a>
@@ -264,7 +265,7 @@ const Footer = () => {
                   <li>
                     <a
                       className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                      href="/"
+                      href="#home"
                     >
                       Home
                     </a>
