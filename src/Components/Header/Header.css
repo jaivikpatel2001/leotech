@@ -180,6 +180,7 @@
     mix-blend-mode: darken;
     height: 45vh;
     width: 50vb;
+    margin-left: -1rem;
   }
   .nav {
     width: 100%;
