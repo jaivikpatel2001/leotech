@@ -49,6 +49,7 @@
   font-weight: 700;
   margin-bottom: 1rem;
   margin-left: 6rem;
+  color: #1d1f24;
 }
 
 .listitemparent {
@@ -58,7 +59,7 @@
 }
 .do {
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.2rem;
 }
 .lh {
@@ -79,6 +80,7 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   margin-left: 8rem;
+  color: #1d1f24;
 }
 .listitemparent {
   display: flex;
@@ -86,8 +88,9 @@
   color: black;
 }
 .dont {
-  color: black;
-  font-weight: 600;
+  color: #1d1f24;
+
+  font-weight: 700;
   font-size: 1.2rem;
 }
 .lh {

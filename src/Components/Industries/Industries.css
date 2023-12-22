@@ -125,10 +125,12 @@
   font-weight: 500;
   font-size: 1rem;
   color: #8a6901;
+  margin-bottom: 0.8rem;
 }
 .sdescriptioin {
   width: 39%;
   margin-bottom: 2rem;
+  margin-top: 0.8rem;
 }
 
 .bright {
@@ -140,6 +142,20 @@
   display: flex;
   justify-content: space-evenly;
   margin-left: 5rem;
+}
+.brleft {
+  margin-left: 4rem;
+}
+.brright {
+  margin-left: 6rem;
+}
+.arrowimagi {
+  width: 15%;
+  margin-top: 1rem;
+}
+.arrowimagfirst {
+  width: 15%;
+  margin-top: 1rem;
 }
 
 .vector {
@@ -209,6 +225,7 @@
   line-height: 2.5rem;
   font-weight: 300;
   list-style-type: circle;
+  margin-left: 1rem;
 }
 .lone {
   background-color: #3e71fe;
@@ -217,7 +234,7 @@
 /* Media queries for responsiveness */
 
 /* For medium-sized screens */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .sdescriptioin {
     width: 50%;
   }
@@ -229,7 +246,7 @@
   .vector {
     width: 40%;
   }
-}
+} */
 
 /* For small screens */
 @media screen and (max-width: 768px) {
@@ -258,6 +275,20 @@
     align-items: center;
     flex-direction: column;
     margin-top: 10rem;
+  }
+  .brleft {
+    margin-left: 0rem;
+  }
+  .brright {
+    margin-left: 0rem;
+  }
+
+  .arrowimagi {
+    margin: auto;
+  }
+  .arrowimagfirst {
+    margin: auto;
+    width: 70%;
   }
   .bright {
     /* margin-top: 2rem;

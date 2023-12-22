@@ -1,5 +1,6 @@
 import React from "react";
 import "../Industries/Industries.css";
+import arrowimage from "../../Assets/arrow.png";
 
 const Industries = () => {
   return (
@@ -39,7 +40,7 @@ const Industries = () => {
             </div>
           </div>
           <div className="bright">
-            <div className="brleft mt-20 ">
+            <div className="brleft mt-12 ">
               <div className="sicons">
                 <div className="figma"></div>
                 <div className="diamond"></div>
@@ -54,9 +55,11 @@ const Industries = () => {
                   <li className="list-disc">Responsive web Design</li>
                 </ul>
               </div>
-              <div className="arrow"></div>
+              <div className="arrow">
+                <img src={arrowimage} className="arrowimagfirst" alt="" />
+              </div>
             </div>
-            <div className="brright mt-20 ">
+            <div className="brright mt-12 ">
               <div className="sicons">
                 <div className="ai"></div>
                 <div className="ps"></div>
@@ -71,7 +74,9 @@ const Industries = () => {
                   <li className="list-disc">Logo Design</li>
                 </ul>
               </div>
-              <div className="arrow"></div>
+              <div className="arrow">
+                <img src={arrowimage} className="arrowimagi" alt="" />
+              </div>
             </div>
             <div className="vector"></div>
           </div>

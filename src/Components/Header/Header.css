@@ -61,7 +61,9 @@
   height: 99vh;
   padding-top: 1rem;
 }
-
+.heroleft {
+  margin-bottom: 8rem;
+}
 .nav {
   margin-bottom: 0rem !important;
 }
@@ -120,7 +122,7 @@
 
 .herodescription {
   width: 74%; /* Adjusted to full width for better responsiveness */
-  line-height: 2rem;
+  line-height: 1.8rem;
   color: gray;
 }
 
@@ -162,6 +164,9 @@
   .herocontainer {
     flex-direction: column-reverse;
     height: auto;
+  }
+  .heroleft {
+    margin-bottom: 1rem;
   }
   .herotitle {
     line-height: 3.5rem;
