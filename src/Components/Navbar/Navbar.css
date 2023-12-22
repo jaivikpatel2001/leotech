@@ -1,5 +1,5 @@
 .navbartotal {
-  width: 80%;
+  width: 70%;
   margin: auto;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
@@ -9,7 +9,7 @@
   width: 75%;
 }
 .mobilemenu {
-  width: 66%;
+  width: 73%;
 }
 
 @media (max-width: 768px) {
