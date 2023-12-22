@@ -1,5 +1,7 @@
 import React from "react";
 import "../Mission/Mission.css";
+import Image1 from "../../Assets/Image 1.png";
+import Image2 from "../../Assets/Image 2.png";
 
 const Mission = () => {
   return (
@@ -35,8 +37,12 @@ const Mission = () => {
           </div>
         </div>
         <div className="misright flex">
-          <div className="imageone"></div>
-          <div className="imagetwo"></div>
+          <div className="imageone">
+            <img src={Image1} alt="" />
+          </div>
+          <div className="imagetwo">
+            <img src={Image2} alt="" />
+          </div>
         </div>
       </div>
       <div className="bottomsection py-12 ">

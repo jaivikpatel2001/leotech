@@ -9,6 +9,8 @@
 .listcorrect {
   display: flex;
   align-items: center;
+  font-weight: 500;
+  color: #545771;
 }
 .cimage {
   background-image: url("../../Assets/greencorrect.png");
@@ -18,25 +20,25 @@
   width: 4%;
 }
 .imageone {
-  background-image: url("../../Assets/Image\ 1.png");
+  /* background-image: url("../../Assets/Image\ 1.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
-  width: 100%;
+  width: 100%; */
   margin-right: 1rem;
 }
-.imagetwo {
+/* .imagetwo {
   background-image: url("../../Assets/Image\ 2.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 40vh;
   width: 100%;
-}
+} */
 .misleft {
   width: 39%;
 }
 .misright {
-  width: 39%;
+  width: 48%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +51,7 @@
 .missiondesc {
   width: 127%;
   line-height: 1.8rem;
+  color: #555770;
 }
 .listcontianer {
   line-height: 2.5rem;
@@ -100,6 +103,7 @@
 }
 .inovationdesc {
   width: 100%;
+  color: #545771;
 }
 
 .inovationicon {
@@ -177,7 +181,7 @@
     flex-direction: column;
   }
   .coreleft {
-    height: 35vh;
+    height: 33vh;
     width: 75%;
   }
   .coreright {
