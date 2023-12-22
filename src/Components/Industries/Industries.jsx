@@ -48,10 +48,10 @@ const Industries = () => {
               <div className="uiux my-7">UI/UX Design</div>
               <div className="list leading-7">
                 <ul>
-                  <li>Front-end Development</li>
-                  <li>Back-end Development</li>
-                  <li>Full-stack Development</li>
-                  <li>Responsive web Design</li>
+                  <li className="list-disc">Front-end Development</li>
+                  <li className="list-disc">Back-end Development</li>
+                  <li className="list-disc">Full-stack Development</li>
+                  <li className="list-disc">Responsive web Design</li>
                 </ul>
               </div>
               <div className="arrow"></div>
@@ -63,12 +63,12 @@ const Industries = () => {
                 <div className="ae"></div>
               </div>
               <div className="uiux my-7">Graphic Design</div>
-              <div className="list leading-7">
+              <div className="list  leading-7">
                 <ul>
-                  <li>Illustration Design</li>
-                  <li>Motion Graphic & Animation</li>
-                  <li>Icon Design</li>
-                  <li>Logo Design</li>
+                  <li className="list-disc">Illustration Design</li>
+                  <li className="list-disc">Motion Graphic & Animation</li>
+                  <li className="list-disc">Icon Design</li>
+                  <li className="list-disc">Logo Design</li>
                 </ul>
               </div>
               <div className="arrow"></div>

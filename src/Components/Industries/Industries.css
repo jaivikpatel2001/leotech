@@ -207,6 +207,8 @@
 .list {
   color: white;
   line-height: 2.5rem;
+  font-weight: 300;
+  list-style-type: circle;
 }
 .lone {
   background-color: #3e71fe;

@@ -96,7 +96,7 @@ const Navbar = () => {
             </a>
           </div>
           <a href="#contact">
-            <button className="bg-blue-500 py-2 px-4 rounded-lg text-white font-small mx-2 block lg:inline mobilemenuset">
+            <button className=" py-2 px-4 rounded-lg text-white font-small mx-2 block lg:inline contactbutton mobilemenuset">
               Contact Us
             </button>
           </a>

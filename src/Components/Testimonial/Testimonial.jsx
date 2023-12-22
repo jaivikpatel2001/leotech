@@ -1,7 +1,7 @@
 import React from "react";
 import previous from "../../Assets/next.png";
 import userimg from "../../Assets/Photo.png";
-import "../Testimonial/Testimonial.css";
+import "./Testimonial.css";
 
 const Testimonial = () => {
   return (
