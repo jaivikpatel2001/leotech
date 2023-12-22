@@ -131,6 +131,7 @@
   width: 39%;
   margin-bottom: 2rem;
   margin-top: 0.8rem;
+  color: #545771;
 }
 
 .bright {
@@ -160,12 +161,14 @@
 
 .vector {
   background-image: url("../../Assets/vectorsiting.png");
-  margin-top: 9rem;
+  margin-top: 4rem;
   height: 43vh;
-  width: 38%;
+  width: 30%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right bottom;
+  transform: scale(1.5);
+  margin-right: 4rem;
 }
 .figma {
   background-image: url("../../Assets/figma.png");
@@ -278,6 +281,7 @@
   }
   .brleft {
     margin-left: 0rem;
+    margin-top: 0;
   }
   .brright {
     margin-left: 0rem;
@@ -307,11 +311,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 130vh;
     margin-left: 0rem;
     text-align: center;
   }
 
+  .vector {
+    height: 24vh;
+    width: 63%;
+    margin: 0;
+  }
   .ibottom {
     flex-direction: column;
   }

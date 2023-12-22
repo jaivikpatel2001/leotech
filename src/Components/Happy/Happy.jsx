@@ -13,7 +13,6 @@ const Happy = () => {
             <span className="family"> Family</span>
           </div>
         </div>
-        <hr />
         <div className="hbottom ">
           <TestimonialSlider />
           <div className="w-3/4">

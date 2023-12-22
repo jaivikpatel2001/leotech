@@ -1,7 +1,7 @@
 import React from "react";
 import previous from "../../Assets/next.png";
 import userimg from "../../Assets/Photo.png";
-import "./Testimonial.css";
+import "../Testimonial/Testimonial.css";
 
 const Testimonial = () => {
   return (
@@ -13,7 +13,7 @@ const Testimonial = () => {
           </button>
         </div>
         <div className="user1">
-          <div className="userimg">
+          <div className="userimg mb-4">
             <img src={userimg} className="rounded-full uimage" alt="" />
           </div>
           <div className="unameuprof">
@@ -32,6 +32,7 @@ const Testimonial = () => {
             <img className="next" src={previous} alt="" />
           </button>
         </div>
+        <hr />
       </div>
     </>
   );

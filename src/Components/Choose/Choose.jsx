@@ -20,7 +20,7 @@ const Choose = () => {
           <div className="logoleft"></div>
           <div className="leoparent">
             <div className="leotech w-fit text-center m-auto flex align-items-center">
-              <img src={logo} alt="" /> Leotech
+              <img src={logo} className="smalllion" alt="" /> Leotech
             </div>
             <div className="bg-blue-500 lh shadow-2xl">
               <div className="do">FEATURES INCLUDED :</div>
