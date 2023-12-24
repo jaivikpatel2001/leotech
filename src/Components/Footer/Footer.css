@@ -1,56 +1,82 @@
-/* .footercontainer {
-  background-color: #36393e;
-  height: 40vh;
-}
-.footerbox {
-  width: 75%;
+.footercontainer {
+  margin-top: 5rem;
+  background-color: #37393f;
+  height: 82vh;
   color: white;
-  margin: auto;
-} */
-/* .flogoleft {
-  background-image: url("../../Assets/flogos.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vh;
-  width: 100%;
-}
-.flogoright {
-  font-size: 1.2rem;
-  font-weight: 700;
 }
 
-.fcallleft {
-  background-image: url("../../Assets/fcall.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vh;
-  width: 100%;
+.footerwidth {
+  width: 65%;
+  margin: auto;
 }
-.fmailleft {
-  background-image: url("../../Assets/fcall.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vh;
-  width: 100%;
+.frlogo {
+  max-width: 75%;
+  max-height: 80%;
 }
-.flocation {
-  background-image: url("../../Assets/fcall.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 7vh;
-  width: 100%;
-} */
-.footercontainer {
-  margin-top: 6rem;
-  background-color: #36383f;
+.hr {
+  border-top: 1px solid gray;
 }
-.flogoright {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: white !important;
+
+.inputrightparent {
+  background-color: #474950;
 }
-@media screen and (max-width: 768px) {
-  .footermargin {
+.fleft {
+  width: 40%;
+  justify-content: space-between;
+}
+.greencolor {
+  color: #40ddb6;
+}
+.input {
+  padding: 0.8rem 1rem;
+  outline: none;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.btn {
+  background-color: #0b63e5;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+@media (max-width: 768px) {
+  .footercontainer {
     margin-top: 13rem;
+    background-color: #37393f;
+    height: 100%;
+    color: white;
+  }
+
+  .footerwidth {
+    width: 90%;
+    margin: auto;
+  }
+  .frone {
+    flex-direction: column;
+    align-items: normal;
+    width: 70%;
+    margin: auto;
+  }
+  .frtwo,
+  .frthree {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fleft {
+    width: 90%;
+  }
+  .inputrightparent {
+    margin-top: 2rem;
+  }
+  .follow {
+    margin-top: 1rem;
+  }
+  .locationparent,
+  .mailusparent,
+  .callusparent,
+  .lgoparent {
+    margin-bottom: 1rem;
   }
 }
