@@ -128,7 +128,7 @@
   margin-bottom: 0.8rem;
 }
 .sdescriptioin {
-  width: 39%;
+  width: 42%;
   margin-bottom: 2rem;
   margin-top: 0.8rem;
   color: #545771;
@@ -136,8 +136,8 @@
 
 .bright {
   background-image: url("../../Assets/gradientimg.png");
-  height: 62vh;
-  width: 65%;
+  height: 65vh;
+  width: 66%;
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -230,8 +230,16 @@
   list-style-type: circle;
   margin-left: 1rem;
 }
-.lone {
+.lone:hover,
+.ltwo:hover,
+.lthree:hover,
+.lfour:hover,
+.lfive:hover,
+.lsix:hover {
   background-color: #3e71fe;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Media queries for responsiveness */
@@ -262,7 +270,7 @@
   }
   .sdescriptioin {
     width: 90%;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 0;
   }
 

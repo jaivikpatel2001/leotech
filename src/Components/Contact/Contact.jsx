@@ -1,12 +1,19 @@
 import React from "react";
 import "./Contact.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <>
       <div className="contactcontainer">
         <div className="blueheight">
-          <div className="left">
+          <motion.div
+            className="left"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="heroformtext ">
               Have a project in mind! Let’s work together.
             </div>
@@ -20,8 +27,14 @@ const Contact = () => {
               />
               <button className="submit">Submit</button>
             </div>
-          </div>
-          <div className="right"></div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="right"
+          ></motion.div>
         </div>
       </div>
     </>

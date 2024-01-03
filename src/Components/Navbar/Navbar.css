@@ -7,6 +7,12 @@
 }
 .contactbutton {
   background-color: #0b63e5;
+  color: white;
+}
+.contactbutton:hover {
+  background-color: transparent;
+  color: #0b63e5;
+  transition-duration: 0.5s;
 }
 .logo {
   width: 75%;

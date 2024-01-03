@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../Assets/logo.png";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white p-4  navcontpad navbartotal">
+    <motion.nav
+      initial={{ opacity: 0, y: -50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      viewport={{ once: true }}
+      className="bg-white p-4  navcontpad navbartotal"
+    >
       <div className="container mx-auto flex items-center justify-between">
         <a href="#home">
           <img src={Logo} className="logo" alt="" />
@@ -54,7 +61,7 @@ const Navbar = () => {
           <div className="lg:flex items-center navmenumobile">
             <a
               href="#home"
-              className="text-black font-small mx-4 hover:underline hover:font-medium block lg:inline mobilemenuset"
+              className="text-black font-small mx-4 hover:underline hover:font-medium hover:text-blue-600 block lg:inline mobilemenuset"
               onClick={closeMenu}
             >
               Home
@@ -102,7 +109,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 

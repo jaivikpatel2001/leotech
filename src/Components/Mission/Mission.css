@@ -1,5 +1,7 @@
-.missioncontainer {
+.mainbgformissioncontainer {
   background-color: #fef8ff;
+}
+.missioncontainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +37,7 @@
   width: 100%;
 } */
 .misleft {
-  width: 39%;
+  width: 55%;
 }
 .misright {
   width: 48%;
@@ -49,7 +51,7 @@
   margin-bottom: 1rem;
 }
 .missiondesc {
-  width: 127%;
+  width: 100%;
   line-height: 1.8rem;
   color: #555770;
 }
@@ -77,7 +79,7 @@
 .coredesc {
   font-size: 1.5rem;
   color: white;
-  width: 65%;
+  width: 75%;
 
   text-align: left;
 }

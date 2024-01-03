@@ -80,6 +80,7 @@
   font-weight: 500;
 }
 .navmenu:hover {
+  cursor: pointer;
   color: #0b62e4;
   font-weight: 700;
   border-bottom: 3px solid blue;
@@ -121,8 +122,8 @@
 }
 
 .herodescription {
-  width: 74%; /* Adjusted to full width for better responsiveness */
-  line-height: 1.8rem;
+  width: 80%; /* Adjusted to full width for better responsiveness */
+  line-height: 2rem;
   color: gray;
 }
 

@@ -1,12 +1,19 @@
 import React from "react";
 import logo from "../../Assets/logoforchoose.png";
 import "./Choose.css";
+import { motion } from "framer-motion";
 
 const Choose = () => {
   return (
     <>
       <div className="choosecontainer " id="cta">
-        <div className="top">
+        <motion.div
+          className="top"
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <div className="cherotitle w-fit m-auto">
             <span className="why">Why</span>
             <span className="chooseus"> Choose us</span>
@@ -15,10 +22,22 @@ const Choose = () => {
             Voilinta is fully reserved. Unlike banks, we don’t loan out your
             money. We publish our holdings and obligations in real time.
           </div>
-        </div>
+        </motion.div>
         <div className="bottom justify-between m-auto">
-          <div className="logoleft"></div>
-          <div className="leoparent">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="logoleft"
+          ></motion.div>
+          <motion.div
+            className="leoparent"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="leotech w-fit text-center m-auto flex align-items-center">
               <img src={logo} className="smalllion" alt="" /> Leotech
             </div>
@@ -61,11 +80,23 @@ const Choose = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="vs text-white bg-yellow-600 rounded-full ">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="vs text-white bg-yellow-600 rounded-full "
+          >
             <div className="vstext">VS</div>
-          </div>
-          <div className="otherparent ">
+          </motion.div>
+          <motion.div
+            className="otherparent "
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="othertech w-fit text-center m-auto">Other Apps</div>
             <div className="bg-white lh shadow-2xl">
               <div className="dont">FEATURES NOT INCLUDED :</div>
@@ -100,9 +131,15 @@ const Choose = () => {
                 <div className="listcontent">Have spotty integrations</div>
               </div>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="logoright"></div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="logoright"
+          ></motion.div>
         </div>
       </div>
     </>

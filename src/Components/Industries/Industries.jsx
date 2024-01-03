@@ -1,12 +1,19 @@
 import React from "react";
 import "../Industries/Industries.css";
 import arrowimage from "../../Assets/arrow.png";
+import { motion } from "framer-motion";
 
 const Industries = () => {
   return (
     <>
       <div className="industriescontainer py-12" id="service">
-        <div className="itop ">
+        <motion.div
+          className="itop "
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <div className="herobadgei">INDUSTRIES</div>
           <div className="sherotitle ">
             <span className="ind">Industry</span>{" "}
@@ -17,10 +24,16 @@ const Industries = () => {
             euismod nisl vehicula non. In felis leo, faucibus vel sagittis
             pharetra, varius ullamcorper quam.
           </div>
-        </div>
+        </motion.div>
         <div className="ibottom">
-          <div className="bleft">
-            <div className="lone text-white w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
+          <motion.div
+            className="bleft "
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
+            <div className="lone w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
               Web Development & Design :{" "}
             </div>
             <div className="ltwo w-fit my-4 py-3 px-4 pr-24 border-2 rounded-full">
@@ -38,8 +51,14 @@ const Industries = () => {
             <div className="lsix w-fit my-4 border-2 py-3 px-4 pr-24 rounded-full ">
               E-Commerce Solutions :{" "}
             </div>
-          </div>
-          <div className="bright">
+          </motion.div>
+          <motion.div
+            className="bright"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="brleft mt-12 ">
               <div className="sicons">
                 <div className="figma"></div>
@@ -79,7 +98,7 @@ const Industries = () => {
               </div>
             </div>
             <div className="vector"></div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

@@ -8,13 +8,20 @@ import finsta from "../../Assets/finsta.png";
 import ffacebook from "../../Assets/ffacebook.png";
 import fpintrest from "../../Assets/fpintrest.png";
 import ftwitter from "../../Assets/ftwitter.png";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <>
       <div className="footercontainer">
         <div className="footerwidth py-8">
-          <div className="frone py-8 flex justify-evenly align-items-center">
+          <motion.div
+            className="frone py-8 flex justify-evenly align-items-center"
+            initial={{ opacity: 0, y: -50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="lgoparent flex">
               <img className="frlogo" src={logo} alt="" />
             </div>
@@ -39,12 +46,18 @@ const Footer = () => {
                 <div className="locationid">Amsterdam, 109-74</div>
               </div>
             </div>
-          </div>
+          </motion.div>
           <div className="hr">
             <hr />
           </div>
           <div className="frtwo flex justify-between align-items-center py-12">
-            <div className="fleft flex leading-9">
+            <motion.div
+              className="fleft flex leading-9"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              viewport={{ once: true }}
+            >
               <div className="quicklinksparent">
                 <ul>
                   <li className="font-semibold greencolor">Quick Link</li>
@@ -75,8 +88,14 @@ const Footer = () => {
                   <li>E-commerce Solutions</li>
                 </ul>
               </div>
-            </div>
-            <div className="fright">
+            </motion.div>
+            <motion.div
+              className="fright"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              viewport={{ once: true }}
+            >
               <div className="inputrightparent rounded-lg px-8 py-4">
                 <div className="subscribe mb-3 font-medium">Subscribe</div>
                 <div className="join  mb-3">
@@ -91,12 +110,18 @@ const Footer = () => {
                   <button className="btn"> Subscribe</button>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
           <div className="hr">
             <hr />
           </div>
-          <div className="frthree flex justify-between align-items-center pt-4 pb-8">
+          <motion.div
+            className="frthree flex justify-between align-items-center pt-4 pb-8"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="copyleft">Copyright © LEOTECH.com</div>
             <div className="socialhandleright">
               <div className="follow flex">
@@ -107,7 +132,7 @@ const Footer = () => {
                 <img className="mr-4 object-contain" src={fpintrest} alt="" />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

@@ -1,11 +1,18 @@
 import React from "react";
 import "./About.css";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
     <>
       <div className="aboutcoontainer" id="about">
-        <div className="atop">
+        <motion.div
+          className="atop"
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <div className="aboutbadge">ABOUT</div>
           <div className="aherotitle">
             <span className="about">About</span> <span className="us">Us</span>
@@ -15,17 +22,29 @@ const About = () => {
             euismod nisl vehicula non. In felis leo, faucibus vel sagittis
             pharetra, varius ullamcorper quam.
           </div>
-        </div>
+        </motion.div>
 
         <div className="abottom pt-8">
-          <div className="ableft">
+          <motion.div
+            className="ableft"
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="upperimage"></div>
             <div className="lowerimage flex">
               <div className="lowerleftimg"></div>
               <div className="lowerrightimg"></div>
             </div>
-          </div>
-          <div className="abright w-1/3">
+          </motion.div>
+          <motion.div
+            className="abright w-1/3"
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="ourstorytitle">Our Story</div>
             <div className="outdesc">
               Founded in [2018], Leotech IT Solutions has rapidly grown from a
@@ -53,7 +72,7 @@ const About = () => {
                 Chief Executive Officer (CEO)
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

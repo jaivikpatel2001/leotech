@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
 import heroimg from "../../Assets/Heroimg.png";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -63,7 +64,13 @@ const Header = () => {
         </header>
 
         <div className="herocontainer w-10/12 m-auto">
-          <div className="heroleft">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+            className="heroleft"
+          >
             <div className=" herobadge">WELCOME TO LEOTECH</div>
             <div className="herotitle">
               Welcome to <span className="leotech"> Leotech</span> IT solutions
@@ -78,7 +85,7 @@ const Header = () => {
             <div className=" herobtn">
               <button> More About Us</button>
             </div>
-          </div>
+          </motion.div>
           <div className="heroright">
             <img className="heroimggirl" src={heroimg} alt="" />
           </div>

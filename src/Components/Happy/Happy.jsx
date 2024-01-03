@@ -1,19 +1,32 @@
 import React from "react";
 import "./Happy.css";
 import TestimonialSlider from "../Testimonial/Testimonial";
+import { motion } from "framer-motion";
 
 const Happy = () => {
   return (
     <>
       <div className="happycontainer py-12" id="testimonial">
-        <div className="htop ">
+        <motion.div
+          className="htop "
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <div className="herobadge">TESTIMONIAL</div>
           <div className="hsherotitle ">
             <span className="ourhappy">Our Happy</span>
             <span className="family"> Family</span>
           </div>
-        </div>
-        <div className="hbottom ">
+        </motion.div>
+        <motion.div
+          className="hbottom "
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 2, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           <TestimonialSlider />
           <div className="w-3/4">
             <hr />
@@ -54,7 +67,7 @@ const Happy = () => {
               </div>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

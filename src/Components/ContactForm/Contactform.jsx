@@ -1,20 +1,33 @@
 import React from "react";
 import "./Contactform.css";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <>
       <div className="contactformcontainer" id="contact">
         <div className="contactformbg">
-          <div className="cfupper">
+          <motion.div
+            className="cfupper"
+            initial={{ opacity: 0, y: -50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="cftitle">Book with a demo</div>
             <div className="cfdesc">
               Thank you for considering Leotech IT Solutions as your IT partner.
               We look forward to the opportunity to collaborate and contribute
               to your success.
             </div>
-          </div>
-          <div className="formcontainer bg-white rounded-xl shadow-xl">
+          </motion.div>
+          <motion.div
+            className="formcontainer bg-white rounded-xl shadow-xl"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true }}
+          >
             <div className="cfcfformtitle">Contact Us</div>
             <div className="nameemail mt-8 flex justify-between">
               <div className="name flex flex-col">
@@ -61,7 +74,7 @@ const Contact = () => {
             <div className="cf">
               <button className="cfbutton"> Request A Quote</button>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </>

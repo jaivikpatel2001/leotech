@@ -12,7 +12,7 @@ const Testimonial = () => {
             <img className="previous" src={previous} alt="" />
           </button>
         </div>
-        <div className="user1">
+        <div className="user1 shadow-lg mx-8">
           <div className="userimg mb-4">
             <img src={userimg} className="rounded-full uimage" alt="" />
           </div>
