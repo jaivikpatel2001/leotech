@@ -47,7 +47,13 @@
     height: 100%;
     color: white;
   }
-
+  .inputbtn {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .btn {
+    border-radius: 1rem;
+  }
   .footerwidth {
     width: 90%;
     margin: auto;
@@ -68,6 +74,8 @@
     width: 100%;
   }
   .inputrightparent {
+    width: 100%;
+    margin: auto;
     margin-top: 2rem;
   }
   .follow {
