@@ -16,7 +16,7 @@ function App() {
       <Industries />
       <Choose />
       <Contact />
-      <About />
+      {/* <About /> */}
       {/* <Mission /> */}
       {/* <Chooseyellow /> */}
       {/* <Happy /> */}
