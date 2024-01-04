@@ -21,7 +21,7 @@ function App() {
       <Chooseyellow />
       <Happy />
       <Contactform />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
