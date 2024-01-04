@@ -67,6 +67,7 @@
   .formdata {
     display: flex;
     flex-direction: column;
+    width: 80%;
   }
   .right {
     width: 100%;

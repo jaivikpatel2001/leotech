@@ -28,7 +28,7 @@ const Industries = () => {
         <div className="ibottom">
           <motion.div
             className="bleft "
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -50, overflowBlock: "hidden" }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true }}
@@ -54,7 +54,7 @@ const Industries = () => {
           </motion.div>
           <motion.div
             className="bright"
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 0, overflowBlock: "hidden" }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 2, ease: "easeOut" }}
             viewport={{ once: true }}
