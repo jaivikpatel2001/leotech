@@ -11,9 +11,9 @@ const Mission = () => {
         <div className="missioncontainer flex">
           <motion.div
             className="misleft"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="missiontitle">Our Mission</div>
@@ -46,9 +46,9 @@ const Mission = () => {
           </motion.div>
           <motion.div
             className="misright flex"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="imageone">
@@ -62,9 +62,9 @@ const Mission = () => {
         <div className="bottomsection py-12 ">
           <motion.div
             className="coreleft"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="coretitle">Core Values</div>
@@ -75,9 +75,9 @@ const Mission = () => {
           </motion.div>
           <motion.div
             className="coreright flex gap-3"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="corerightleft gap-3">

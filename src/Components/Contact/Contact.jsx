@@ -9,9 +9,9 @@ const Contact = () => {
         <div className="blueheight">
           <motion.div
             className="left"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="heroformtext ">
@@ -29,9 +29,9 @@ const Contact = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
             className="right"
           ></motion.div>
