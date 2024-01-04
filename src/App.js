@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Header />
-      {/* <Industries /> */}
-      {/* <Choose /> */}
+      <Industries />
+      <Choose />
       {/* <Contact /> */}
       {/* <About /> */}
       {/* <Mission /> */}
