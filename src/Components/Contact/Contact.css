@@ -47,9 +47,6 @@
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
-  .contactcontainer {
-    width: 100%;
-  }
   .blueheight {
     flex-direction: column-reverse;
     align-items: center;
