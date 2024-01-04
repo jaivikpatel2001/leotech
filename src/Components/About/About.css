@@ -154,17 +154,23 @@
     width: 95%;
   }
   .upperimage {
-    width: 100%;
+    width: 90%;
     height: 30vh;
     line-height: 1.5rem;
     text-align: center;
+    margin: auto;
+  }
+  .lowerimage {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
   }
   .lowerleftimg {
     height: 13vh;
     width: 30%;
   }
   .lowerrightimg {
-    width: 48%;
+    width: 65%;
     margin-left: -2rem;
   }
   .misright {
