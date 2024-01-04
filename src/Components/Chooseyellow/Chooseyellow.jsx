@@ -25,7 +25,7 @@ const Chooseyellow = () => {
             viewport={{ once: true }}
           >
             <div className="corerightlefty gap-2">
-              <div className="inovationy bg-white rounded-md">
+              <div className="inovationy bg-white rounded-md boxnoone">
                 <div className="inovationicon"></div>
                 <div className="inovationtitleyeloow ">Expertise</div>
                 <div className="text-sm inovationdesc">
@@ -33,7 +33,7 @@ const Chooseyellow = () => {
                   experience in various IT domains and Web Development.
                 </div>
               </div>
-              <div className="inovationy   bg-white rounded-md">
+              <div className="inovationy   bg-white rounded-md boxnotwo">
                 <div className="bugicon"></div>
                 <div className="inovationtitleyeloow ">
                   Client Success Stories
@@ -43,7 +43,7 @@ const Chooseyellow = () => {
                   overcome challenges and achieve their goals.
                 </div>
               </div>
-              <div className="inovationy   bg-white rounded-md">
+              <div className="inovationy   bg-white rounded-md boxnothree">
                 <div className="databaseicon"></div>
                 <div className="inovationtitleyeloow ">
                   Customized Solutions
@@ -53,7 +53,7 @@ const Chooseyellow = () => {
                   are tailor-made to address specific needs.
                 </div>
               </div>
-              <div className="inovationy bg-white rounded-md ">
+              <div className="inovationy bg-white rounded-md boxnofour">
                 <div className="collabicon"></div>
                 <div className="inovationtitleyeloow ">Proven Track Record</div>
                 <div className="text-sm inovationdesc">

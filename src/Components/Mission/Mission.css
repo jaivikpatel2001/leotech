@@ -105,7 +105,7 @@
 }
 .inovationdesc {
   width: 100%;
-  color: #545771;
+  /* color: #545771; */
 }
 
 .inovationicon {
@@ -123,7 +123,7 @@
   width: 15%;
 }
 .databaseicon {
-  background-image: url("../../Assets/database.png");
+  background-image: url("../../Assets/Database.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 6vh;
@@ -147,6 +147,14 @@
   align-items: center;
 }
 
+.boxnoone:hover,
+.boxnotwo:hover,
+.boxnothree:hover,
+.boxnofour:hover {
+  background-color: #0b63e5;
+  color: white !important;
+  transition: all 0.3s ease-in-out;
+}
 @media (max-width: 768px) {
   .missioncontainer {
     flex-direction: column;

@@ -8,11 +8,11 @@
 .contactbutton {
   background-color: #0b63e5;
   color: white;
+  opacity: 0.7;
 }
 .contactbutton:hover {
-  background-color: transparent;
-  color: #0b63e5;
-  transition-duration: 0.5s;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 .logo {
   width: 75%;

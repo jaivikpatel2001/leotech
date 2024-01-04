@@ -131,10 +131,16 @@
   background-color: #0b62e4;
   width: fit-content;
   padding: 0.4rem 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   margin-top: 1rem;
   color: white;
+  opacity: 0.7;
   font-weight: 500;
+}
+.herobtn:hover {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Right Section Styles */

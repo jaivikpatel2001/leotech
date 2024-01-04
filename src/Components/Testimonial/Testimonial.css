@@ -14,10 +14,12 @@
   align-items: center;
   flex-direction: column;
   max-width: 80%;
+  min-height: 62vh;
 }
 .uimage {
   width: 100%;
   height: auto;
+  max-height: 20vh;
 }
 .tuserdesc {
   width: 60%;
@@ -40,5 +42,14 @@
   .tuserdesc {
     width: 95%;
     margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
+  .unameuprof {
+    font-size: 0.9rem;
+  }
+  .uimage {
+    width: 100%;
+    height: auto;
+    max-height: 15vh;
   }
 }

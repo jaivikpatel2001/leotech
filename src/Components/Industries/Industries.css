@@ -136,13 +136,13 @@
 
 .bright {
   background-image: url("../../Assets/gradientimg.png");
-  height: 65vh;
-  width: 66%;
+  height: 63vh;
+  width: 75%;
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
 }
 .brleft {
   margin-left: 4rem;
@@ -189,10 +189,16 @@
   background-image: url("../../Assets/AE.png");
 }
 .ibottom {
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 3rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 3rem; */
+  width: 85%;
+  margin: auto;
 }
 
 .sicons {
@@ -303,16 +309,7 @@
     width: 70%;
   }
   .bright {
-    /* margin-top: 2rem;
-    width: 100%;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh; */
-    margin-top: 0rem;
-    /* width: 100%; */
+    /* margin-top: 0rem;
     width: 100%;
     background-size: cover;
     display: flex;
@@ -321,7 +318,20 @@
     flex-direction: column;
     height: 130vh;
     margin-left: 0rem;
+    text-align: center; */
+    margin-top: 0rem;
+    /* width: 100%; */
+    width: 113%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 130vh;
+    margin-left: 0rem;
     text-align: center;
+    border-radius: 1rem;
   }
 
   .vector {
@@ -331,5 +341,6 @@
   }
   .ibottom {
     flex-direction: column;
+    margin: auto;
   }
 }

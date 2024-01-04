@@ -28,7 +28,7 @@ const Happy = () => {
           viewport={{ once: true }}
         >
           <TestimonialSlider />
-          <div className="w-3/4">
+          <div className="w-3/4 mt-8">
             <hr />
           </div>
           <div className="hbtitle mt-4">
