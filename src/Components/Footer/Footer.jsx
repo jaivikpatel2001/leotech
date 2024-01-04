@@ -53,9 +53,9 @@ const Footer = () => {
           <div className="frtwo flex justify-between align-items-center py-12">
             <motion.div
               className="fleft flex leading-9"
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, ease: "easeOut" }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
               <div className="quicklinksparent">
@@ -91,9 +91,9 @@ const Footer = () => {
             </motion.div>
             <motion.div
               className="fright"
-              initial={{ opacity: 0, x: 20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1, ease: "easeOut" }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
               <div className="inputrightparent rounded-lg px-8 py-4">
