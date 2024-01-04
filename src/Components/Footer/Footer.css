@@ -73,8 +73,11 @@
   .fleft {
     width: 100%;
   }
-  .inputrightparent {
+  .fright {
     width: 90%;
+  }
+  .inputrightparent {
+    width: 100%;
     margin: auto;
     margin-top: 2rem;
   }
