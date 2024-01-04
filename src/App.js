@@ -20,8 +20,8 @@ function App() {
       <Mission />
       <Chooseyellow />
       <Happy />
-      <Contactform />
-      <Footer />
+      {/* <Contactform /> */}
+      {/* <Footer /> */}
     </>
   );
 }
