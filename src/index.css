@@ -11,11 +11,8 @@ body {
   scroll-behavior: smooth;
 }
 body {
-  overflow-x: hidden;
-  -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: "Poppins", sans-serif;
-  max-width: 100%;
 }
 
 body::-webkit-scrollbar {
