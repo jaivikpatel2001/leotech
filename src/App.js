@@ -17,8 +17,8 @@ function App() {
       <Choose />
       {/* <Contact /> */}
       <About />
-      {/* <Mission /> */}
-      {/* <Chooseyellow /> */}
+      <Mission />
+      <Chooseyellow />
       {/* <Happy /> */}
       {/* <Contactform /> */}
       {/* <Footer /> */}
