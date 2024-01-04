@@ -47,11 +47,16 @@
   font-weight: 500;
 }
 @media screen and (max-width: 768px) {
+  .contactcontainer {
+    width: 100%;
+  }
   .blueheight {
     flex-direction: column-reverse;
     align-items: center;
     height: auto;
     padding-bottom: 2rem;
+    width: 95%;
+    margin: auto;
   }
   .heroformtext {
     width: 90%;
