@@ -123,7 +123,7 @@
   width: 15%;
 }
 .databaseicon {
-  /* background-image: url("../../Assets/Database.png"); */
+  background-image: url("../../Assets/bugicon.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 6vh;
