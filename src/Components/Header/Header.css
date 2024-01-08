@@ -56,7 +56,7 @@
   /* background-color: #fce7fd; */
   background-image: url("../../Assets/banner-bg.webp.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
   height: 99vh;
   padding-top: 1rem;
@@ -162,34 +162,49 @@
 @media screen and (max-width: 768px) {
   .bgcolor {
     height: 100%;
-    background-color: #fce7fd;
-    padding: 1rem 0rem;
+    background-color: white;
+    /* padding: 1rem 0rem; */
     background-size: contain;
-    padding-top: 0rem;
+    /* padding-top: 0rem; */
     /* margin-top: 10rem; */
   }
   .herocontainer {
     flex-direction: column-reverse;
     height: auto;
+    padding-top: 3rem;
   }
   .heroleft {
     margin-bottom: 1rem;
   }
-  .herotitle {
+  /* .herotitle {
     line-height: 3.5rem;
     text-align: center;
     width: 100%;
-  }
+    margin: 2rem 0rem;
+  } */
   .herotitle,
   .herotitle > .leotech {
-    font-size: 2rem;
-    margin-left: 0;
+    font-size: 1.7rem;
+
+    margin: 1rem 0rem;
+    width: 100%;
+    text-align: left;
+    line-height: 3rem;
+    letter-spacing: 0rem;
   }
 
-  .herobadge,
-  .herodescription,
+  .herobadge {
+    width: 65%;
+    padding: 0.2rem 1rem;
+  }
+  .herodescription {
+    width: 100%;
+    line-height: 1.7rem;
+    color: gray;
+    font-size: 0.9rem;
+  }
   .herobtn {
-    width: 100%; /* Adjusted to full width for better responsiveness */
+    width: 60%; /* Adjusted to full width for better responsiveness */
     text-align: center;
   }
 
@@ -203,6 +218,7 @@
     height: 45vh;
     width: 50vb;
     margin-left: -1rem;
+    display: none;
   }
   .nav {
     width: 100%;

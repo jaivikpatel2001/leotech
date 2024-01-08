@@ -274,8 +274,22 @@
   .sherotitle {
     text-align: center;
   }
+  .sherotitle > .ind {
+    font-size: 27.34px;
+    font-weight: 700;
+    color: #0b62ef;
+  }
+
+  .sherotitle > .serve {
+    font-size: 27.34px;
+    font-weight: 700;
+    color: #d7ab21;
+  }
+  .herobadgei {
+    font-size: 8.75px;
+  }
   .sdescriptioin {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin-bottom: 0;
   }

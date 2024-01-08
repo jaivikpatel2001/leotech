@@ -123,7 +123,7 @@
   width: 15%;
 }
 .databaseicon {
-  background-image: url("../../Assets/bugicon.png");
+  background-image: url("../../Assets/database.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 6vh;
@@ -157,7 +157,7 @@
 }
 @media (max-width: 768px) {
   .missioncontainer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
   }
   .misleft {
@@ -170,11 +170,13 @@
     width: 90%;
   }
   .missiontitle {
-    text-align: center;
+    text-align: left;
   }
   .missiondesc {
-    text-align: justify;
+    text-align: left;
     width: 100%;
+    font-size: 11px;
+    line-height: 1.3rem;
   }
   .imageone {
     height: 24vh;
@@ -190,9 +192,13 @@
   .bottomsection {
     flex-direction: column;
   }
+  .listcontianer {
+    font-size: 12px;
+    line-height: 1.5rem;
+  }
   .coreleft {
-    height: 33vh;
-    width: 75%;
+    height: 40vh;
+    width: 91%;
   }
   .coreright {
     width: 100%;
