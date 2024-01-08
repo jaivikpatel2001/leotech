@@ -39,13 +39,22 @@
   .testimonialcontainer {
     width: 95%;
   }
+  .user1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    min-height: 39vh;
+  }
   .tuserdesc {
     width: 95%;
     margin-bottom: 1rem;
-    font-size: 0.8rem;
+    font-size: 10px;
+    margin-top: 0.7rem;
   }
   .unameuprof {
-    font-size: 0.9rem;
+    font-size: 10px;
   }
   .uimage {
     width: 100%;

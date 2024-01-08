@@ -171,6 +171,7 @@
   }
   .missiontitle {
     text-align: left;
+    font-size: 26px;
   }
   .missiondesc {
     text-align: left;
@@ -203,17 +204,32 @@
   .coreright {
     width: 100%;
     flex-direction: column;
+    margin-top: 2rem;
+  }
+  .corerightright {
+    margin-left: 0rem;
+    gap: 1.5rem;
+    transform: translate(0rem, 2rem);
   }
   .coretitle {
-    font-size: 1.5rem;
+    font-size: 31px;
     color: white;
     font-weight: 600;
   }
   .coredesc {
-    font-size: 1rem;
+    font-size: 16px;
     color: white;
     width: 100%;
     text-align: start;
+  }
+  .inovationtitle {
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .inovationdesc {
+    width: 100%;
+    font-size: 14px;
+    /* color: #545771; */
   }
   .corerightleft {
     align-items: center;

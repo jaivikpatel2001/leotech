@@ -96,18 +96,37 @@
     padding-bottom: 3rem;
     /* padding-top: 0rem; */
   }
+  .hsherotitle {
+    margin-top: 1rem;
+  }
+  .hsherotitle > .ourhappy {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0b62ef;
+  }
+  .hsherotitle > .family {
+    font-size: 26px;
+    font-weight: 700;
+    color: #d7ab21;
+  }
   .hbottom {
     flex-direction: column;
   }
   .hbtitle {
     width: 90%;
-    font-size: 2rem;
+    font-size: 20px;
   }
   .statastics {
     display: flex;
+    width: -moz-fit-content;
     width: fit-content;
-    flex-direction: column;
-
     margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .sdesctitle {
+    text-align: center;
+    font-size: 13px;
   }
 }

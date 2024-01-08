@@ -132,14 +132,17 @@
   .ourstorytitle {
     text-align: left;
     margin-left: 0.8rem;
+    font-size: 26px;
   }
   .outdesc {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 1.3rem;
+    width: 92%;
+    margin: auto;
   }
   .manavshah,
   .darshaksolanki {
-    justify-content: center;
+    margin-left: 1rem;
     align-items: center;
   }
   .lowerimage {
@@ -179,5 +182,15 @@
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
+  }
+  .aherotitle > .about {
+    font-size: 26px;
+    font-weight: 700;
+    color: #0b62ef;
+  }
+  .aherotitle > .us {
+    font-size: 26px;
+    font-weight: 700;
+    color: #d7ab21;
   }
 }

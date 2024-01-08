@@ -73,7 +73,11 @@ const Header = () => {
           >
             <div className=" herobadge">WELCOME TO LEOTECH</div>
             <div className="herotitle">
-              Welcome to <span className="leotech"> Leotech</span> IT solutions
+              Welcome to <span className="leotech"> Leotech </span> IT solutions
+            </div>
+            <div className="herotitlemobile">
+              Welcome to <span className="leotechmobile"> Leotech </span> IT
+              solutions
             </div>
             <div className="herodescription">
               At Leotech IT solutions, we are passionate about leveraging
