@@ -65,8 +65,8 @@ const Header = () => {
 
         <div className="herocontainer w-10/12 m-auto">
           <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
             className="heroleft"
@@ -91,7 +91,15 @@ const Header = () => {
             </div>
           </motion.div>
           <div className="heroright">
-            <img className="heroimggirl" src={heroimg} alt="" />
+            <motion.img
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="heroimggirl"
+              src={heroimg}
+              alt=""
+            />
           </div>
         </div>
       </div>
