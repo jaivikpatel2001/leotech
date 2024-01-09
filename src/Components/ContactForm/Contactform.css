@@ -77,19 +77,25 @@
   .cfupper {
     margin-top: 6rem;
   }
+
   .cftitle {
     text-align: center;
-    margin-top: 6rem;
-    font-size: 2.3rem;
+    margin-top: 19rem;
+    font-size: 1.5rem;
   }
   .cfdesc {
     width: 90%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .formcontainer {
     width: 90%;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 1rem;
+  }
+  .cfcfformtitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
   }
 }
