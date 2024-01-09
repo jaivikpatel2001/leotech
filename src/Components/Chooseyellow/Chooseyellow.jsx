@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Chooseyellow = () => {
   return (
     <>
-      <div className="chooseyelowcontainer" id="faq">
+      <div className="chooseyelowcontainer overflow-hidden" id="faq">
         <div className="containerwidth">
           <motion.div
             className="ytop"
