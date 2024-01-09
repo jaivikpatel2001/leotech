@@ -96,7 +96,9 @@
     flex-direction: column-reverse;
     height: 100%;
   }
-
+  .formdata {
+    width: 80%;
+  }
   .left {
     display: flex;
     flex-direction: column;
