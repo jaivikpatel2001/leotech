@@ -96,9 +96,7 @@
     flex-direction: column-reverse;
     height: 100%;
   }
-  .formdata {
-    width: 80%;
-  }
+
   .left {
     display: flex;
     flex-direction: column;
@@ -109,9 +107,23 @@
     align-items: center;
     margin-top: 0rem;
   }
+  .formdata {
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .inputfield {
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+    padding: 0.8rem 2rem;
+    /* padding-right: 5rem; */
+    outline: none;
+    width: 54%;
+  }
   .submit {
     margin: 1rem 0rem;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 1.5rem;
     color: #0a4fb7;
     background-color: white;
     border-radius: 0.8rem;
