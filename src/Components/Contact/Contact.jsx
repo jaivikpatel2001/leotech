@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      <div className="blueheight">
+      <div className="blueheight overflow-hidden">
         <motion.div
           className="left"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
@@ -28,8 +28,8 @@ const Contact = () => {
           </div>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           viewport={{ once: true }}
           className="right"

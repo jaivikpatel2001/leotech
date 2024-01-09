@@ -4,6 +4,7 @@ import userimg from "../../Assets/Photo.png";
 import "../Testimonial/Testimonial.css";
 import user1 from "../../Assets/Testimonial/user1.jpg";
 import user2 from "../../Assets/Testimonial/user2.png";
+import { motion } from "framer-motion";
 
 const Testimonial = () => {
   const testimonialsArray = [
@@ -46,13 +47,25 @@ const Testimonial = () => {
 
   return (
     <>
-      <div className="testimonialcontainer">
-        <div className="tleft">
+      <div className="testimonialcontainer overflow-hidden">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="tleft"
+        >
           <button onClick={handlePrevClick}>
             <img className="previous" src={previous} alt="Previous" />
           </button>
-        </div>
-        <div className="user1 shadow-lg mx-2 ">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="user1 shadow-lg mx-2 "
+        >
           <div className="userimg mb-4">
             <img
               src={currentTestimonial.image}
@@ -64,12 +77,18 @@ const Testimonial = () => {
           <div className="tuserdesc mt-8 text-justify">
             {currentTestimonial.description}
           </div>
-        </div>
-        <div className="tright">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+          viewport={{ once: true }}
+          className="tright"
+        >
           <button onClick={handleNextClick}>
             <img className="next" src={previous} alt="Next" />
           </button>
-        </div>
+        </motion.div>
         <hr />
       </div>
     </>

@@ -197,8 +197,9 @@
   }
 
   .herobadge {
-    width: 65%;
+    width: 70%;
     padding: 0.2rem 1rem;
+    text-align: center;
   }
   .herodescription {
     width: 100%;

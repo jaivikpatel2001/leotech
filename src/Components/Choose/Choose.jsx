@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Choose = () => {
   return (
     <>
-      <div className="choosecontainer" id="cta">
+      <div className="choosecontainer overflow-hidden" id="cta">
         <motion.div
           className="top"
           initial={{ opacity: 0, y: -50 }}
@@ -34,9 +34,9 @@ const Choose = () => {
           <div>
             <motion.div
               className="leoparent"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1, ease: "easeInOut" }}
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
               <div className="leotech w-fit text-center m-auto flex align-items-center">
@@ -96,9 +96,9 @@ const Choose = () => {
           <div>
             <motion.div
               className="otherparent"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 1, ease: "easeInOut" }}
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
               viewport={{ once: true }}
             >
               <div className="othertech w-fit text-center m-auto">

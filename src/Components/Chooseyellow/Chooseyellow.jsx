@@ -19,9 +19,9 @@ const Chooseyellow = () => {
           </motion.div>
           <motion.div
             className="bottomy m-auto flex z-10"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 2, ease: "easeOut" }}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="corerightlefty gap-2">

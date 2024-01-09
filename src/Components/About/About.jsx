@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
-      <div className="aboutcoontainer" id="about">
+      <div className="aboutcoontainer overflow-hidden" id="about">
         <motion.div
           className="atop"
           initial={{ opacity: 0, y: -50 }}
@@ -27,8 +27,8 @@ const About = () => {
         <div className="abottom pt-8">
           <motion.div
             className="ableft"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
@@ -40,8 +40,8 @@ const About = () => {
           </motion.div>
           <motion.div
             className="abright w-1/3"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >

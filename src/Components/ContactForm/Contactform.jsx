@@ -23,9 +23,9 @@ const Contact = () => {
           </motion.div>
           <motion.div
             className="formcontainer bg-white rounded-xl shadow-xl"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            initial={{ opacity: 0, scale: 0.5 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
             <div className="cfcfformtitle">Contact Us</div>

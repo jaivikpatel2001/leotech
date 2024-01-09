@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 const Mission = () => {
   return (
     <>
-      <div className="mainbgformissioncontainer">
+      <div className="mainbgformissioncontainer overflow-hidden">
         <div className="missioncontainer flex">
           <motion.div
             className="misleft"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
@@ -46,8 +46,8 @@ const Mission = () => {
           </motion.div>
           <motion.div
             className="misright flex"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
@@ -62,8 +62,8 @@ const Mission = () => {
         <div className="bottomsection py-12 ">
           <motion.div
             className="coreleft"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
@@ -75,8 +75,8 @@ const Mission = () => {
           </motion.div>
           <motion.div
             className="coreright flex gap-3"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
