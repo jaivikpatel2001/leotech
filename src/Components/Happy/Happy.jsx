@@ -39,14 +39,14 @@ const Happy = () => {
             <div className="award flex ">
               <div className="trophy w-fit"></div>
               <div className="sdescription">
-                <div className="sdescstats text-center ">17+</div>
+                <div className="sdescstats text-center ">5</div>
                 <div className="sdesctitle text-center">AWARDS REWARDED</div>
               </div>
             </div>
             <div className="experience flex ">
               <div className="siconexp"></div>
               <div className="sdescription">
-                <div className="sdescstats text-center">23+</div>
+                <div className="sdescstats text-center">5</div>
                 <div className="sdesctitle text-center">
                   YEARS OF EXPERIENCE
                 </div>
@@ -55,7 +55,7 @@ const Happy = () => {
             <div className="client flex align-items-center">
               <div className="siconhappy"></div>
               <div className="sdescription">
-                <div className="sdescstats text-center">183+</div>
+                <div className="sdescstats text-center">200+</div>
                 <div className="sdesctitle text-center">HAPPY CLIENTS</div>
               </div>
             </div>

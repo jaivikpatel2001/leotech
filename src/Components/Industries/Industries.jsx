@@ -332,6 +332,60 @@ const Industries = () => {
           </>
         );
       // Add cases for other menu items as needed
+      case "computerhardware":
+        return (
+          <>
+            <>
+              <motion.div
+                className="bright"
+                initial={{ opacity: 0, scale: 0.5 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 2, ease: "easeOut" }}
+                viewport={{ once: true }}
+              >
+                <div className="brleft mt-12">
+                  {/* <div className="sicons">
+        <div className="figma"></div>
+        <div className="diamond"></div>
+        <div className="xd"></div>
+      </div> */}
+                  <div className="uiux my-7">Computer Hardware</div>
+                  <div className="list leading-7">
+                    <ul>
+                      <li className="list-disc">Monitor </li>
+                      <li className="list-disc">CPU</li>
+                      <li className="list-disc">Ram Rom </li>
+                      <li className="list-disc">etc</li>
+                    </ul>
+                  </div>
+                  <div className="arrow">
+                    <img src={arrowimage} className="arrowimagfirst" alt="" />
+                  </div>
+                </div>
+                {/* <div className="brright mt-12 ">
+      <div className="sicons">
+        <div className="ai"></div>
+        <div className="ps"></div>
+        <div className="ae"></div>
+      </div>
+      <div className="uiux my-7">Graphic Design</div>
+      <div className="list  leading-7">
+        <ul>
+          <li className="list-disc">Illustration Design</li>
+          <li className="list-disc">Motion Graphic & Animation</li>
+          <li className="list-disc">Icon Design</li>
+          <li className="list-disc">Logo Design</li>
+        </ul>
+      </div>
+      <div className="arrow">
+        <img src={arrowimage} className="arrowimagi" alt="" />
+      </div>
+    </div> */}
+                <div className="vector"></div>
+              </motion.div>
+            </>
+          </>
+        );
       default:
         return null;
     }
@@ -407,6 +461,12 @@ const Industries = () => {
               onClick={() => handleMenuItemClick("ecomsolution")}
             >
               E-Commerce Solutions :{" "}
+            </div>
+            <div
+              className="lsix w-fit my-4 border-2 py-3 px-4 pr-12 rounded-full "
+              onClick={() => handleMenuItemClick("computerhardware")}
+            >
+              Computer Hardware :{" "}
             </div>
           </motion.div>
           {/* webdevelopment component */}
