@@ -13,7 +13,7 @@ const Contact = () => {
           transition={{ duration: 2, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
-          <div className="heroformtext ">
+          <div className="heroformtext">
             Have a project in mind! Let’s work together.
           </div>
           <div className="formdata">
@@ -27,13 +27,13 @@ const Contact = () => {
             <button className="submit">Submit</button>
           </div>
         </motion.div>
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 2, ease: "easeInOut" }}
           viewport={{ once: true }}
           className="right"
-        ></motion.div>
+        ></motion.div> */}
       </div>
     </>
   );

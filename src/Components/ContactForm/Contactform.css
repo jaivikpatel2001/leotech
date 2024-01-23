@@ -1,5 +1,5 @@
 .contactformbg {
-  background-image: url("../../Assets/BG.png");
+  background-image: url("../../Assets/Testimonial/BG.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -80,7 +80,7 @@
 
   .cftitle {
     text-align: center;
-    margin-top: 19rem;
+    /* margin-top: 19rem; */
     font-size: 1.5rem;
   }
   .cfdesc {

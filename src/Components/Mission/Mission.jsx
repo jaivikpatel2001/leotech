@@ -3,6 +3,7 @@ import "../Mission/Mission.css";
 import Image1 from "../../Assets/Image 1.png";
 import Image2 from "../../Assets/Image 2.png";
 import { motion } from "framer-motion";
+import ourmissionimg from "../../Assets/UI Block/ourmission.svg";
 
 const Mission = () => {
   return (
@@ -51,12 +52,7 @@ const Mission = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
-            <div className="imageone">
-              <img src={Image1} alt="" />
-            </div>
-            <div className="imagetwo">
-              <img src={Image2} alt="" />
-            </div>
+            <img src={ourmissionimg} alt="" />
           </motion.div>
         </div>
         <div className="bottomsection py-12 ">

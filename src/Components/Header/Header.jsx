@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar/Navbar";
-import heroimg from "../../Assets/Heroimg.png";
+import heroimg from "../../Assets/Heroimg.svg";
 import { motion } from "framer-motion";
 
 const Header = () => {

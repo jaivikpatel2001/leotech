@@ -107,7 +107,7 @@ import { motion } from "framer-motion";
 const Testimonial = () => {
   const testimonialsArray = [
     {
-      image: userimg,
+      image: user2,
       name: " Mick G., Head of Sales and Marketing",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown ",

@@ -14,7 +14,7 @@ const Chooseyellow = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true }}
           >
-            <div className="vectorimg"></div>
+            {/* <div className="vectorimg"></div> */}
             <div className="vectortitle">Why Choose Leotech it solutions</div>
           </motion.div>
           <motion.div

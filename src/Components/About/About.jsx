@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { motion } from "framer-motion";
-
+import aboutimg from "../../Assets/aboutsvg.svg";
 const About = () => {
   return (
     <>
@@ -32,11 +32,12 @@ const About = () => {
             transition={{ duration: 2, ease: "easeInOut" }}
             viewport={{ once: true }}
           >
-            <div className="upperimage"></div>
+            <img src={aboutimg} alt="" />
+            {/* <div className="upperimage"></div>
             <div className="lowerimage flex">
               <div className="lowerleftimg"></div>
               <div className="lowerrightimg"></div>
-            </div>
+            </div> */}
           </motion.div>
           <motion.div
             className="abright w-1/3"
