@@ -66,13 +66,13 @@ const About = () => {
               </div>
             </div>
             <br />
-            <div className="darshaksolanki flex">
+            {/* <div className="darshaksolanki flex">
               <div className="saharaicon"></div>
               <div className="ceoname font-medium">
                 Darshak Solanki - <br />
                 Chief Executive Officer (CEO)
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
