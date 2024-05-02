@@ -29,21 +29,25 @@ const Footer = () => {
               <img className="frlogo" src={fcall} alt="" />
               <div className="callchild ml-3">
                 <div className="callus">Call Us</div>
-                <div className="callusno">+01 569 896 654</div>
+                <div className="callusno">07824068954</div>
               </div>
             </div>
             <div className="mailusparent flex">
               <img className="frlogo" src={fmail} alt="" />
               <div className="mailchild ml-3">
                 <div className="mailus">Mail Us</div>
-                <div className="mailusid">Info@Example.com</div>
+                <div className="mailusid">
+                  manav.shah@leotechitsolutions.com
+                </div>
               </div>
             </div>
             <div className="locationparent flex">
               <img className="frlogo" src={flocation} alt="" />
               <div className="locatioinchild  ml-3">
                 <div className="location">Location</div>
-                <div className="locationid">Amsterdam, 109-74</div>
+                <div className="locationid">
+                  724 Greenford Road London UB6 8QR
+                </div>
               </div>
             </div>
           </motion.div>
